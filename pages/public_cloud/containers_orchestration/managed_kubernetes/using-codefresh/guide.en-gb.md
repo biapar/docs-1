@@ -10,138 +10,66 @@ In this tutorial we will see how you can connect [Codefresh](https://codefresh.i
 
 The first thing you need to follow this tutorial is a Codefresh account, you can get it directly at [Codefresh](https://codefresh.io){.external} site.
 
-![Codefresh](images/using-codefresh-01.jpg){.thumbnail}
+![Codefresh](images/using-codefresh-01.png){.thumbnail}
+
+You will also need Helm and CLI tool *kubectl* to be installed on your local machine
+
+Please refer to the official Helm webpage for installation : [Install Helm](https://helm.sh/){.external}
 
 This tutorial also presupposes that you already have a working OVHcloud Managed Kubernetes cluster, and some basic knowledge of how to operate it. If you want to know more on those topics, please look at the [OVHcloud Managed Kubernetes Service Quickstart](/pages/public_cloud/containers_orchestration/managed_kubernetes/deploying-hello-world).
 
 ## Connect an OVH Kubernetes cluster to Codefresh dashboard
 
-You can use the Codefresh GUI to connect your OVHcloud Managed Kubernetes cluster to Codefresh. In Codefresh GUI, start by going into your *Account Configuration*, by clicking on *Account Settings* on the left sidebar. On the first section called *Integrations* click the *Configure* button next to Kubernetes.
+You can use the Codefresh GUI to connect your OVHcloud Managed Kubernetes cluster to Codefresh. 
+On the first section called *Integrations* click the *Configure* button next to Kubernetes.
+In Codefresh GUI, start by going into your *Account Configuration*, by clicking on the small cog in the top right corner. 
+On the navbar at the left, click on *Git Authentication*, then on *Install Runtime* on your favorite Git Service.
+Then, you'll have to define the repository you want to work on and the engine you're using. Click on *Continue*.
+Generate your API Key, and an Helm command will appear. Copy and paste this command into a terminal where you have exported your Kubeconfig before.
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-02.jpg){.thumbnail}
+This Helm chart will install all the needed resources on your cluster such as ServiceAccounts, Deployments, etc...
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-03.jpg){.thumbnail}
+![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-02.png){.thumbnail}
 
-As the current time, Codefresh doesn't propose a direct integration with OVHcloud Managed Kubernetes Service, so you will have to add your cluster manually. To do it, click on the *Add provider* button and select *Custom providers*.
+![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-03.png){.thumbnail}
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-03.jpg){.thumbnail}
+![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-04.png){.thumbnail}
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-04.jpg){.thumbnail}
+```bash 
+$ kubectl get all -n codefresh
+NAME                                                     READY   STATUS             RESTARTS      AGE
+pod/argo-cd-application-controller-0                     1/1     Running            0             2m21s
+pod/argo-cd-applicationset-controller-5474d545d9-m6p7b   1/1     Running            0             2m19s
+pod/argo-cd-dex-server-68d88f58b7-mhm8v                  1/1     Running            2 (88s ago)   2m20s
+[...]
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-05.jpg){.thumbnail}
+NAME                                        TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)             AGE
+service/argo-cd-applicationset-controller   ClusterIP   10.3.237.34    <none>        7000/TCP            2m25s
+service/argo-cd-dex-server                  ClusterIP   10.3.67.97     <none>        5556/TCP,5557/TCP   2m24s
+service/argo-cd-redis                       ClusterIP   10.3.62.230    <none>        6379/TCP            2m24s
+[...]
+
+NAME                                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/argo-cd-applicationset-controller   1/1     1            1           2m23s
+deployment.apps/argo-cd-dex-server                  1/1     1            1           2m23s
+deployment.apps/argo-cd-redis                       1/1     1            1           2m23s
+[...]
+
+NAME                                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/argo-cd-applicationset-controller-5474d545d9   1         1         1       2m20s
+replicaset.apps/argo-cd-dex-server-68d88f58b7                  1         1         1       2m22s
+replicaset.apps/argo-cd-redis-55dcd4d7cd                       1         1         1       2m20s
+[...]
+
+NAME                                              READY   AGE
+statefulset.apps/argo-cd-application-controller   1/1     2m23s
+statefulset.apps/argo-cd-event-reporter           0/3     2m23s
+```
 
 The integration between Codefresh and your Kubernetes cluster is API based and relies on a Kubernetes service account of your choosing that will be used to manage the integration.
 
-The configurations you’ll be required to add are:
-
-1. Name - Any name of your choosing, that will represent your cluster context in Codefresh.
-1. Host - The full URL of the Kubernetes API endpoints including protocol and port
-1. Certificate - The Kubernetes service account certificate used for the integration with Codefresh (base64 encoded)
-1. Token - The Kubernetes service account token used for the integration with Codefresh (base64 encoded)
-
-Let's see how you can obtain these parameters, using `kubectl`.
-
-### Set the permissions
-
-In order to allow Codefresh to connect to your cluster, you need to set up a `Role`, a `ServiceAccount` and a `RoleBinding`. Create a `codefresh-role-sa-bind.yml` YAML file:
-
-```yaml
-kind: ClusterRole
-apiVersion: rbac.authorization.k8s.io/v1
-metadata:
-  name: codefresh-role
-rules:
-  - apiGroups: [""]
-    resources: ["*"]
-    verbs: ["list", "watch", "get"]
----
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: codefresh-user
-  namespace: kube-system
----
-apiVersion: rbac.authorization.k8s.io/v1beta1
-kind: ClusterRoleBinding
-metadata:
-  name: codefresh-user
-roleRef:
-  apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
-  name: codefresh-role
-subjects:
-- kind: ServiceAccount
-  name: codefresh-user
-  namespace: kube-system
-```
-
-And apply it using `kubectl`:
-
-```bash
-kubectl apply -f codefresh-role-sa-bind.yml
-```
-
-The `Role`, the `ServiceAccount` and the `RoleBinding` are created:
-
-```console
-$ kubectl apply -f codefresh-role-sa-bind.yml
-clusterrole.rbac.authorization.k8s.io/codefresh-role created
-serviceaccount/codefresh-user created
-clusterrolebinding.rbac.authorization.k8s.io/codefresh-user created
-```
-
-### Getting the *Host*
-
-Use `kubectl` to get the full URL of the OVHcloud Managed Kubernetes API endpoints:
-
-```bash
-kubectl cluster-info
-```
-
-The *Host* parameter is the URL of the Kubernetes master.
-
-```console
-$ kubectl cluster-info
-Kubernetes master is running at https://xxxxxxxx.c1.gra.k8s.ovh.net
-KubeDNS is running at https://xxxxxxxx.c1.gra.k8s.ovh.net/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
-
-To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
-```
-
-In my example cluster, the *Host* is `https://xxxxxxxx.c1.gra.k8s.ovh.net`.
-
-### Getting the *Certificate*
-
-Use `kubectl` to generate a certificate:
-
-```bash
-echo $(kubectl get secret --namespace kube-system  -o go-template='{{index .data "ca.crt" }}' $(kubectl get sa codefresh-user --namespace kube-system -o go-template="{{range .secrets}}{{.name}}{{end}}"))
-
-```
-
-Copy the generated certificate into the *Certificate* field on Codefresh.
-
-```console
-$ echo $(kubectl get secret --namespace kube-system -o go-template='{{index .data "ca.crt" }}' $(kubectl get sa codefresh-user --namespace kube-system -o go-template="{{range .secrets}}{{.name}}{{end}}"))
-LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S3LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZtVENDQTRHZ0F3SUJBZ0lCS2pBTkJna3Foa2lHOXcwQkFRc0ZBREF2TVMwd0t3WURWUVFERENReVlqRmsKWVdabFlTMWxNR1l6TFRRNU5UVXRPV1JqWkMxaFpqbGhNemd4TWpobFl6Z3dIaGNOTVRneE1EQTVNVGMxTVRVMQpXaGNOTWpNeE1EQTRNVGMxTVRVMVdqQXZNUzB3S31NBQnUKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
-```
-
-### Getting the *Token*
-
-Use `kubectl` to generate a token:
-
-```bash
-echo $(kubectl get secret --namespace kube-system -o go-template='{{index .data "token" }}' $(kubectl get sa codefresh-user --namespace kube-system -o go-template="{{range .secrets}}{{.name}}{{end}}"))
-```
-
-Copy the generated token into the *Token* field on Codefresh.
-
-```console
-$ echo $(kubectl get secret -o go-template='{{index .data "token" }}' $(kubectl get sa default -o go-template="{{range .secrets}}{{.name}}{{end}}"))
-ZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklpSjkuZXlKcGMzTWlPaUpyZFdKbGNtNWxkR1Z6TDNObGNuWnBZMlZoWTJOdmRXNTBJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5dVlXMWxjM0JoWTJVaU9pSmtaV1poZFd4MElpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklpSjkuZXlKcGMzTWlPaUpyZFdKbGNtNWxkR1Z6TDNObGNuWnBZMlZoWTJOdmRXNTBJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5dVlXMWxjM0JoWTJVaU9pSmtaV1poZFd4MElpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklpSjkuZXlKcGMzTWlPaUpyZFdKbGNtNWxkR1Z6TDNObGNuWnBZMlZoWTJOdmRXNTBJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5dVlXMWxjM0JoWTJVaU9pSmtaV1poZFd4MElpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklpSjkuZXlKcGMzTWlPaUpyZFdKbGNtNWxkR1Z6TDNObGNuWnBZMlZoWTJOdmRXNTBJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5dVlXMWxjM0JoWTJVaU9pSmtaV1poZFd4MElpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzZXlKaGJHY2lPaUpTVXpJMU5pSXNJbXRwWkNJNklpSjkuZXlKcGMzTWlPaUpyZFdKbGNtNWxkR1Z6TDNObGNuWnBZMlZoWTJOdmRXNTBJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5dVlXMWxjM0JoWTJVaU9pSmtaV1poZFd4MElpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzSmtGQ3lxU01Rb3RqejFhNFc3R3VFQk03MlJjMUhZSUwtOHhSNy1aVzRBQU9jeGdxMVhyZ2F2LVZhRQ==
-```
-
 ### Test and save the connection
+
 
 Click on the *Test connection* button to test the configuration. You should get a message telling you that your OVHcloud Managed Kubernetes cluster connects successfully with Codefresh:
 

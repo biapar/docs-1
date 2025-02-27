@@ -10,7 +10,7 @@ In this tutorial we will see how you can connect [Codefresh](https://codefresh.i
 
 The first thing you need to follow this tutorial is a Codefresh account, you can get it directly at [Codefresh](https://codefresh.io){.external} site.
 
-![Codefresh](images/using-codefresh-01.jpg){.thumbnail}
+![Codefresh](images/using-codefresh-01.png){.thumbnail}
 
 This tutorial also presupposes that you already have a working OVHcloud Managed Kubernetes cluster, and some basic knowledge of how to operate it. If you want to know more on those topics, please look at the [OVHcloud Managed Kubernetes Service Quickstart](/pages/public_cloud/containers_orchestration/managed_kubernetes/deploying-hello-world).
 
@@ -18,17 +18,17 @@ This tutorial also presupposes that you already have a working OVHcloud Managed 
 
 You can use the Codefresh GUI to connect your OVHcloud Managed Kubernetes cluster to Codefresh. In Codefresh GUI, start by going into your *Account Configuration*, by clicking on *Account Settings* on the left sidebar. On the first section called *Integrations* click the *Configure* button next to Kubernetes.
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-02.jpg){.thumbnail}
+![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-02.png){.thumbnail}
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-03.jpg){.thumbnail}
+![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-03.png){.thumbnail}
 
 As the current time, Codefresh doesn't propose a direct integration with OVHcloud Managed Kubernetes Service, so you will have to add your cluster manually. To do it, click on the *Add provider* button and select *Custom providers*.
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-03.jpg){.thumbnail}
+![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-03.png){.thumbnail}
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-04.jpg){.thumbnail}
+![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-04.png){.thumbnail}
 
-![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-05.jpg){.thumbnail}
+![Connect an OVH Kubernetes cluster to Codefresh dashboard](images/using-codefresh-05.png){.thumbnail}
 
 The integration between Codefresh and your Kubernetes cluster is API based and relies on a Kubernetes service account of your choosing that will be used to manage the integration.
 
