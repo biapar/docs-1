@@ -188,8 +188,56 @@ ______________________________________________________________________
 
 ## Network
 ### Additional IP
-- Configuration
-- Support / Troubleshooting
+#### Configuration
+- [Enabling and configuring the Edge Network Firewall]
+- [Configuring an Additional IP]
+- [Configuring the network on Proxmox VE on the High Grade, Scale & Advance ranges] 
+- [Configuring a network bridge]
+- [How to create a Public Cloud instance and connect to it] 
+- [Tutorial - Configuring pfSense network bridge]
+- [Configuring IP aliasing]
+- [Migrate data from one dedicated server to another]
+- [Configuring IP aliasing]
+- [How to use the Bring Your Own IP feature]
+- [Configuring the network on Windows Server with Hyper-V]
+- [How to protect a Game server with the application firewall]
+- [Assigning a Virtual MAC to an Additional IP]
+- [Moving an Additional IP]
+- [Monitoring DDoS attacks with the Network Security Dashboard]
+- [Introduction to the OVHcloud Load Balancer]
+- [Buying an Additional IP]
+- [Concepts - Public Cloud Networking]
+- [Concepts - Additional IP or Floating IP] 
+- [All you need to know to get started with Public Cloud] 
+- [Adding an IP block]
+- [FAQ Public Cloud OVHcloud]
+- [Setting up a Virtual Machine using Additional IPs and Hyper-V over a vRack] 
+- [Load Balancer FAQ]
+- [Configuring an IPv6 block in a vRack] 
+- [OVHgateway documentation]
+- [Adding a public IP address to a new VM] 
+- [Routing an Additional IP]
+- [Working with HTTP routes]
+- [Configuring Disaster Recovery with Metro]
+- [Migrating an Additional IP]
+- [Importing an Additional IP]
+- [Details of API functions]
+- [Managing the Load Balancer from the customer control panel]
+- [Deleting a Public Cloud project]
+- [How to delist blocklisted IP addresses]
+- [Cancelling an Additional IP service]
+- [SAP HANA on Bare Metal and SAP Application Servers on VMware on OVHcloud]
+- [Introduction to the Managed Bare Metal Control Panel]
+- [Securing your OVHcloud infrastructure with Stormshield Network Security]
+- [Nutanix on OVHcloud - High-level documentation]
+- [How to use the Public Cloud interface]
+- [Adding an IP block]
+- [Securing your OVHcloud infrastructure with Ubika WAAP Gateway]
+- [Associating an email with a vSphere user]
+- [Associating an email with a vSphere user]
+- [Dedicated Servers Reversibility Policy]
+- [Block Storage security specifications]
+#### Support / Troubleshooting
 - [Cancel an additional IP](https://help.ovhcloud.com/csm/en-ie-network-additional-ip-cancel?id=kb_article_view&sysparm_article=KB0054512)
 
 ### OVHcloud Load Balancer
