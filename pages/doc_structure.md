@@ -26,7 +26,6 @@
 - [Changing the admin password on a Windows dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-windows-admin-password-change?id=kb_article_view&sysparm_article=KB0043295)
 - [Managing Intel SGX on a dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-intel-sgx?id=kb_article_view&sysparm_article=KB0044005)
 - [Hardware upgrade on a High Grade or Scale dedicated server](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-hardware-upgrade-hg-scale?id=kb_article_view&sysparm_article=KB0060745)
-
 ***Storage***
 - [How to configure and rebuild software RAID](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-raid-soft?id=kb_article_view&sysparm_article=KB0043933)
 - [Managing hardware RAID](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-raid-hard?id=kb_article_view&sysparm_article=KB0043928)
@@ -40,7 +39,6 @@
 - [Advance Dedicated Servers - Upgrading your Samsung NVMe PM9A1 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-samsung-nvme-firmware-upgrade?id=kb_article_view&sysparm_article=KB0060082)
 - [High Grade Dedicated Servers - Upgrading your SSD SAS Western Digital SS300 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-wd-sas-firmware-upgrade?id=kb_article_view&sysparm_article=KB0062305)
 - [High Grade Dedicated Servers - Upgrading your SSD SAS Western Digital SS530 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-wdc-sas-ss530-firmware-upgrade?id=kb_article_view&sysparm_article=KB0064265)
-
 ***Network***
 - [Introduction to SSH](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-ssh-introduction?id=kb_article_view&sysparm_article=KB0044020)
 - [How to create and use authentication keys for SSH connections to OVHcloud servers](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-creating-ssh-keys?id=kb_article_view&sysparm_article=KB0043380)
@@ -163,6 +161,12 @@ ______________________________________________________________________
 
 ## Network
 ### Additional IP
+#### Account and service management
+- [Dedicated Servers Reversibility Policy](https://help.ovhcloud.com/csm/en-reversibility-dedicated-servers-reversibility-policy?id=kb_article_view&sysparm_article=KB0062184)
+- [Block Storage security specifications](https://help.ovhcloud.com/csm/en-public-cloud-block-storage-security-overview?id=kb_article_view&sysparm_article=KB0066119)
+#### Bring your own IP
+- [How to use the Bring Your Own IP feature](https://help.ovhcloud.com/csm/en-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044856)
+
 #### Dedicated Servers
 - [Enabling and configuring the Edge Network Firewall](https://help.ovhcloud.com/csm/en-dedicated-servers-firewall-network?id=kb_article_view&sysparm_article=KB0043448)
 - [Configuring the network on Proxmox VE on the High Grade, Scale & Advance ranges](https://help.ovhcloud.com/csm/en-dedicated-servers-proxmox-network-hg-scale?id=kb_article_view&sysparm_article=KB0043913)
@@ -178,8 +182,14 @@ ______________________________________________________________________
 - [Setting up a Virtual Machine using Additional IPs and Hyper-V over a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-foip-vrack-hyperv?id=kb_article_view&sysparm_article=KB0043621)
 - [Configuring an IPv6 block in a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-configure-an-ipv6-in-a-vrack?id=kb_article_view&sysparm_article=KB0062838)
 
-#### Virtual Private Servers
-- [VPS - Configuring IP aliasing](https://help.ovhcloud.com/csm/en-vps-network-ipaliasing?id=kb_article_view&sysparm_article=KB0047585)
+#### Hosted Private Cloud
+- [OVHgateway documentation](https://help.ovhcloud.com/csm/en-nutanix-ovh-gateway-documentation?id=kb_article_view&sysparm_article=KB0045003)
+- [Adding a public IP address to a new VM](https://help.ovhcloud.com/csm/en-nutanix-public-ip?id=kb_article_view&sysparm_article=KB0045016)
+- [Configuring Disaster Recovery with Metro](https://help.ovhcloud.com/csm/en-nutanix-metro-availability?id=kb_article_view&sysparm_article=KB0045184)
+- [Nutanix on OVHcloud - High-level documentation](https://help.ovhcloud.com/csm/en-nutanix-high-level-documentation?id=kb_article_view&sysparm_article=KB0044890)
+- [SAP HANA on Bare Metal and SAP Application Servers on VMware on OVHcloud](https://help.ovhcloud.com/csm/en-sap-hana-dedicated-server-sap-as-hpc?id=kb_article_view&sysparm_article=KB0057371)
+- [Adding an IP block](https://help.ovhcloud.com/csm/en-vmware-add-ip-block?id=kb_article_view&sysparm_article=KB0045307)
+- [Associating an email with a vSphere user](https://help.ovhcloud.com/csm/en-vmware-associate-email-vsphere-user?id=kb_article_view&sysparm_article=KB0046418)
 
 #### Load Balancer
 - [Introduction to the OVHcloud Load Balancer](https://help.ovhcloud.com/csm/en-load-balancer-loadbalancer-introduction?id=kb_article_view&sysparm_article=KB0044251)
@@ -193,15 +203,6 @@ ______________________________________________________________________
 - [Introduction to the Managed Bare Metal Control Panel](https://help.ovhcloud.com/csm/en-managed-bare-metal-control-panel-ovhcloud?id=kb_article_view&sysparm_article=KB0044493)
 - [Adding an IP block](https://help.ovhcloud.com/csm/en-managed-bare-metal-add-ip-block?id=kb_article_view&sysparm_article=KB0044474)
 - [Associating an email with a vSphere user](https://help.ovhcloud.com/csm/en-managed-bare-metal-associate-email-vsphere-user?id=kb_article_view&sysparm_article=KB0044805)
-
-#### Hosted Private Cloud
-- [OVHgateway documentation](https://help.ovhcloud.com/csm/en-nutanix-ovh-gateway-documentation?id=kb_article_view&sysparm_article=KB0045003)
-- [Adding a public IP address to a new VM](https://help.ovhcloud.com/csm/en-nutanix-public-ip?id=kb_article_view&sysparm_article=KB0045016)
-- [Configuring Disaster Recovery with Metro](https://help.ovhcloud.com/csm/en-nutanix-metro-availability?id=kb_article_view&sysparm_article=KB0045184)
-- [Nutanix on OVHcloud - High-level documentation](https://help.ovhcloud.com/csm/en-nutanix-high-level-documentation?id=kb_article_view&sysparm_article=KB0044890)
-- [SAP HANA on Bare Metal and SAP Application Servers on VMware on OVHcloud](https://help.ovhcloud.com/csm/en-sap-hana-dedicated-server-sap-as-hpc?id=kb_article_view&sysparm_article=KB0057371)
-- [Adding an IP block](https://help.ovhcloud.com/csm/en-vmware-add-ip-block?id=kb_article_view&sysparm_article=KB0045307)
-- [Associating an email with a vSphere user](https://help.ovhcloud.com/csm/en-vmware-associate-email-vsphere-user?id=kb_article_view&sysparm_article=KB0046418)
 
 #### Public Cloud
 - [All you need to know to get started with Public Cloud](https://help.ovhcloud.com/csm/en-public-cloud-compute-essential-information?id=kb_article_view&sysparm_article=KB0050390)
@@ -218,12 +219,8 @@ ______________________________________________________________________
 - [Securing your OVHcloud infrastructure with Ubika WAAP Gateway](https://help.ovhcloud.com/csm/en-public-cloud-network-ubika-vrack?id=kb_article_view&sysparm_article=KB0065109)
 - [Securing your OVHcloud infrastructure with Stormshield Network Security](https://help.ovhcloud.com/csm/en-public-cloud-network-stormshield-vrack?id=kb_article_view&sysparm_article=KB0065106)
 
-#### Bring your own IP
-- [How to use the Bring Your Own IP feature](https://help.ovhcloud.com/csm/en-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044856)
-
-#### Account and service management
-- [Dedicated Servers Reversibility Policy](https://help.ovhcloud.com/csm/en-reversibility-dedicated-servers-reversibility-policy?id=kb_article_view&sysparm_article=KB0062184)
-- [Block Storage security specifications](https://help.ovhcloud.com/csm/en-public-cloud-block-storage-security-overview?id=kb_article_view&sysparm_article=KB0066119)
+#### Virtual Private Servers
+- [VPS - Configuring IP aliasing](https://help.ovhcloud.com/csm/en-vps-network-ipaliasing?id=kb_article_view&sysparm_article=KB0047585)
 
 #### Miscellaneous
 - [How to delist blocklisted IP addresses](https://help.ovhcloud.com/csm/en-network-blocklist-ip-delist?id=kb_article_view&sysparm_article=KB0065140)
@@ -285,6 +282,209 @@ ______________________________________________________________________
 - [Configure an IPv6 in a vRack](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-configure-an-ipv6-in-a-vrack?id=kb_article_view&sysparm_article=KB0062826)
 - [Network Jumbo Frames](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-network-jumbo?id=kb_article_view&sysparm_article=KB0043202)
 - Support / Troubleshooting
+
+### vRack Private Network
+#### Account and service management
+***Account Information***
+- [Security specification for Private Cloud by VMmare]()
+- [Security specification for Private Cloud VMmare under SecNumCloud qualification]()
+***Reversibility***
+- [Dedicated Servers Reversibility Policy]()
+- [Hosted Private Cloud Reversibility Policy]()
+- [Reversibility policy for the service VMware on OVHcloud under SecNumCloud qualification]()
+
+#### BGP Service
+- [BGP Service configuration]()
+
+#### Dedicated Servers
+- [Configuring the network on Proxmox VE on the High Grade, Scale & Advance ranges]()
+- [Tutorial - Configuring pfSense network bridge]()
+- [Configuring the vRack on your dedicated servers]()
+- [OVHcloud AntiSpam - Best Practices and Unblocking an IP]()
+- [Configuring the network on Windows Server with Hyper-V]()
+- [Configuring an IP block in a vRack]()
+- [Assigning a Virtual MAC to an Additional IP]()
+- [Configuring the vRack between the Public Cloud and a Dedicated Server]()
+- [Creating multiple vLANs in a vRack]()
+- [Moving an Additional IP]()
+- [Finalise a maintenance intervention on your dedicated server]()
+- [Manage your server reboot with the OVHcloud Link Aggregation feature]()
+- [Setting up a Virtual Machine using Additional IPs and Hyper-V over a vRack]()
+- [Setting up a Virtual Machine using Additional IPs and Hyper-V over a vRack]()
+- [Configuring an IPv6 block in a vRack]()
+- [How to Configure Your NIC for OVHcloud Link Aggregation in Debian 9 to 11]()
+- [Find your patch for Meltdown and Spectre]()
+- [Preparing a Bare Metal Server backup with Veeam Enterprise]()
+- [Backing up data and databases on a Storage Server]()
+- [Configuring Jumbo Frames in vRack]()
+- [Change the announcement of an IP block in vRack]()
+- [Change the announcement of an IP block in vRack]()
+- [How to Configure Your NIC for OVHcloud Link Aggregation in Windows Server 2019]()
+- [Information about Meltdown and Spectre vulnerability fixes]()
+- [How to Configure Your NIC for OVHcloud Link Aggregation in SLES 15]()
+- [Upgrade and downgrade private bandwidth (vRack) via the OVHcloud API]()
+
+#### Hosted Private Cloud
+***Nutanix on OVHcloud***
+- [OVHgateway documentation]()
+- [Adding a public IP address to a new VM]()
+- [Configuring Disaster Recovery with Metro]()
+- [Advanced replication with Leap]()
+- [Replacing the OVHgateway with a dedicated server]()
+- [Nutanix on OVHcloud - High-level documentation]()
+- [Disaster Recovery Plan in Nutanix]()
+- [Securing Prism Central Web access]()
+- [Interconnect clusters through the vRack]()
+- [Responsibility sharing - Nutanix on OVHcloud]()
+- [Changing the vRack of a Nutanix cluster]()
+***SAP on OVHcloud***
+- [SAP infrastructure with SecNumCloud-qualified SAP HANA on Private Cloud]()
+***VMware on OVHcloud***
+- [Configure an IP address on a virtual machine]()
+- [Enabling promiscuous mode on a Virtual Machine]()
+- [VMware NSX-V - End of Life]()
+- [Segment management in NSX]()
+- [Deploying a virtual machine]()
+- [Getting started with NSX]()
+- [VMware Cloud Director - The fundamentals of VCD]()
+- [NSX - FAQ]()
+- [How to create a VLAN]()
+- [Configure BGP between two PCCs via NSX-T]()
+- [VMware Cloud Director - Network concepts and best practices]()
+- [Using Private Cloud within a vRack]()
+- [Technical capabilities]()
+- [vRack compatibility with Hosted Private Cloud]()
+- [VMware Cloud Director - Migrate from VMware vSphere on OVHcloud]()
+- [VPN-SPN Concept]()
+- [FAQ SecNumCloud Connectivity]()
+- [Concepts overview]()
+- [SPN Concept]()
+
+#### Load Balancer
+- [Introduction to the OVHcloud Load Balancer]()
+- [Routing an Additional IP]()
+- [Details of API functions]()
+- [Configuring the vRack on the load balancer]()
+
+#### Manage & Operate
+***IAM***
+- [How to use IAM policies using the OVHcloud Control Panel]()
+- [List of permission groups managed by OVHcloud]()
+***Terraform***
+- [Using Terraform with OVHcloud]()
+
+#### Managed Bare Metal
+- [Configure an IP address on a virtual machine]()
+- [Technical capabilities]()
+- [VLAN creation]()
+- [Using Managed Bare Metal within a vRack]()
+- [Deploying a virtual machine]()
+
+#### OVH Cloud Connect
+- [Concepts overview]()
+- [Layer 3 mode]()
+- [FAQ OVHcloud Connect]()
+- [Installation of OVHcloud Connect Direct from the OVHcloud Control Panel]()
+- [Technical capabilities and limitations]()
+- [Installation of OVHcloud Connect Provider from the OVHcloud Control Panel]()
+- [Layer 2 mode]()
+- [Configuration of OVHcloud Connect using OVHcloud APIv6]()
+
+#### Public Cloud
+***General Information***
+- [How to use Terraform]()
+- [All you need to know to get started with Public Cloud]()
+- [FAQ Public Cloud OVHcloud]()
+***Analytics***
+- [Dashboards - Tutorial - Expose your Dashboards instance in your private network via a reverse proxyNGINX]()
+- [OpenSearch - Capabilities and Limitations]()
+- [Kafka MirrorMaker - Capabilities and Limitations]()
+- [Kafka - Capabilities and Limitations]()
+- [Data Processing Capabilities and Limitations]()
+- [Dashboards - Capabilities and Limitations]()
+- [Kafka Connect - Capabilities and Limitations]()
+- [Analytics - Getting started with Terraform]()
+- [Analytics - Getting started]()
+- [Analytics - Getting started with APIs]()
+- [Analytics - Capabilities and Limitations]()
+***AI & Machine Learning***
+- [AI Notebooks - Features, Capabilities and Limitations]()
+- [AI Deploy - Features, Capabilities and Limitations]()
+- [FAQ - AI Tools]()
+- [AI Training - Features, Capabilities and Limitations]()
+***Compute***
+- [How to create a Public Cloud instance and connect to it]()
+- [Using instance backups to create or restore an instance]()
+- [Activating a Windows licence for an instance in private mode]()
+- [Managing your Public Cloud Instances in Horizon]()
+***Containers & Orchestration***
+- [Getting the source IP behind the LoadBalancer]()
+- [Expose your app deployed on an OVHcloud Managed Kubernetes Service]()
+- [Known limits]()
+- [Expose your applications using OVHcloud Public Cloud Load Balancer]()
+- [Using a custom gateway on an OVHcloud Managed Kubernetes cluster]()
+- [Creating a cluster]()
+- [Working with vRack example - Communicating between different private networks]()
+- [Using vRack Private Network]()
+- [Deploy applications to specific Nodes and Nodes Pools]()
+- [Using vRack - Communicating between different private networks]()
+- [Getting Started with Managed Rancher Service]()
+- [Working with vRack example - Managed Kubernetes and Public Cloud instances]()
+***Databases***
+- [MongoDB - Connect with CLI]()
+- [Caching - Connect with CLI]()
+- [Public Cloud Databases - How to configure your Private Network]()
+- [PostgreSQL - Capabilities and Limitations]()
+- [Caching - Connect with PHP]()
+- [MongoDB - Connect with PHP]()
+- [FAQ Public Cloud databases]()
+- [Public Cloud Databases - Getting started]()
+- [MySQL - Capabilities and Limitations]()
+- [Public Cloud Databases Concepts - Security overview]()
+- [MongoDB - Connect with Python]()
+- [MongoDB - Capabilities and Limitations]()
+- [MySQL - Tutorial - Connect an OVHcloud Managed Kubernetes service to an OVHcloud Managed MySQL service]()
+- [Caching - Capabilities and Limitations]()
+- [Public Cloud Databases - Getting started with Terraform]()
+- [Public Cloud Databases - Getting started with APIs]()
+- [MongoDB - Tutorial - How to deploy a database with Terraform]()
+- [MongoDB - Connect with MongoDB Compass]()
+- [Public Cloud Databases - Capabilities and Limitations]()
+- [Cassandra - Capabilities and Limitations]()
+- [M3db - Capabilities and Limitations]()
+- [M3 Aggregator - Capabilities and Limitations]()
+- [MongoDB - Cluster Sizing]()
+***Network Services***
+- [Configuring vRack for Public Cloud]()
+- [Creating a private network with Gateway]()
+- [Concepts - Public Cloud Networking]()
+- [Getting started with Load Balancer on Public Cloud]()
+- [Deploying a Public Cloud Load Balancer]()
+- [Changing the MTU size for existing networks using OpenStack CLI/API]()
+- [Configuring vRack on the Public Cloud using the OVHcloud API]()
+- [Public Cloud Network Services - FAQ]()
+- [Update a subnet properties]()
+- [Securing your OVHcloud infrastructure with Stormshield Network Security]()
+- [Public Cloud Network Services - Known limits]()
+- [Securing your OVHcloud infrastructure with Ubika WAAP Gateway]()
+- [Configuring vRack for Public Cloud using OpenStack CLI]()
+- [Configuring a public IP block in a vRack on a Public Cloud instance]()
+
+#### Storage
+***File Storage***
+- [HA-NAS - Frequently Asked Questions]()
+- [Enterprise File Storage - Concepts]()
+- [Enterprise File Storage - FAQ]()
+- [Enterprise File Storage - Private network configuration]()
+***Object Storage***
+- [Object Storage - FAQ]()
+
+#### Virtual Private Servers
+- [FAQ VPS OVHcloud]()
+
+#### Miscellaneous
+- [vRack Services - Exposing a Managed Service on your vRack]()
+
 
 ### OVHcloud Connect
 - Getting Started
