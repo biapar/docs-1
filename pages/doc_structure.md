@@ -72,15 +72,12 @@
 #### Security
 ##### Hardening
 - [How to secure a dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-securing-server?id=kb_article_view&sysparm_article=KB0043988)
-- [Configuring the firewall on Linux with iptables](https://help.ovhcloud.com/csm/en-dedicated-servers-firewall-iptables?id=kb_article_view&sysparm_article=KB0043436)
-- [Configuring the firewall on Windows](https://help.ovhcloud.com/csm/en-dedicated-servers-firewall-windows?id=kb_article_view&sysparm_article=KB0043216)
 - [Securing a server with a Memcached service](https://help.ovhcloud.com/csm/en-dedicated-servers-securing-server-memcached-service?id=kb_article_view&sysparm_article=KB0043684)
 - [Zenbleed vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-zenbleed-vulnerability?id=kb_article_view&sysparm_article=KB0059006)
 - [Downfall vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-downfall-vulnerability?id=kb_article_view&sysparm_article=KB0059180)
 - [Inception vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-inception-vulnerability?id=kb_article_view&sysparm_article=KB0059208)
 - [Meltdown and Spectre kernel update per OS](https://help.ovhcloud.com/csm/en-dedicated-servers-meltdown-spectre-kernel-update-per-operating-system?id=kb_article_view&sysparm_article=KB0043669)
 - [Meltdown and Spectre fixes](https://help.ovhcloud.com/csm/en-dedicated-servers-information-about-meltdown-spectre-vulnerability-fixes?id=kb_article_view&sysparm_article=KB0043665)
-- [OVHcloud Antispam - Best Practices and Unblocking an IP](https://help.ovhcloud.com/csm/en-dedicated-servers-antispam-best-practices?id=kb_article_view&sysparm_article=KB0043252)
 - [AMD SME and SEV on Ubuntu 20](https://help.ovhcloud.com/csm/en-dedicated-servers-amd-sme-sev?id=kb_article_view&sysparm_article=KB0044018)
 
 ##### Backup
@@ -88,6 +85,11 @@
 - [Backing up a Bare Metal Linux Server with Veeam Enterprise](https://help.ovhcloud.com/csm/en-veeam-enterprise-server-backup-linux?id=kb_article_view&sysparm_article=KB0062537)
 - [Backing Up a Bare Metal Windows Server Using Veeam Agent for Windows](https://help.ovhcloud.com/csm/en-veeam-enterprise-server-backup-windows?id=kb_article_view&sysparm_article=KB0062511)
 - [Restoring a Bare Metal Server with Veeam Enterprise](https://help.ovhcloud.com/csm/en-veeam-enterprise-server-backup-restore?id=kb_article_view&sysparm_article=KB0062528)
+
+##### Network
+- [OVHcloud Antispam - Best Practices and Unblocking an IP](https://help.ovhcloud.com/csm/en-dedicated-servers-antispam-best-practices?id=kb_article_view&sysparm_article=KB0043252)
+- [Configuring the firewall on Linux with iptables](https://help.ovhcloud.com/csm/en-dedicated-servers-firewall-iptables?id=kb_article_view&sysparm_article=KB0043436)
+- [Configuring the firewall on Windows](https://help.ovhcloud.com/csm/en-dedicated-servers-firewall-windows?id=kb_article_view&sysparm_article=KB0043216)
 
 #### Troubleshooting
 - [How to recover access if the user password is lost](https://help.ovhcloud.com/csm/en-dedicated-servers-change-password?id=kb_article_view&sysparm_article=KB0061802)
@@ -226,62 +228,41 @@ ______________________________________________________________________
 - [How to delist blocklisted IP addresses](https://help.ovhcloud.com/csm/en-network-blocklist-ip-delist?id=kb_article_view&sysparm_article=KB0065140)
 - [Cancelling an Additional IP service](https://help.ovhcloud.com/csm/en-network-additional-ip-cancel?id=kb_article_view&sysparm_article=KB0054520)
 
+
 ### OVHcloud Load Balancer
 #### Key concepts
-- [Introduction to the OVH Load Balancer]
-- [Load balancing methods]
-- [Load Balancer FAQ]
+- [Introduction to the OVH Load Balancer]()
+- [Load balancing methods]()
+- [Load Balancer FAQ](https://help.ovhcloud.com/csm/en-load-balancer-iplb-faq?id=kb_article_view&sysparm_article=KB0044151)
 
 #### Getting Started
-- [Managing your Load Balancer service via the Control Panel]
-- [Load Balancer API Quick Reference]
-- [Details of API functions]
-- [Order a free SSL certificate]
+- [Managing your Load Balancer service via the Control Panel]()
+- [Load Balancer API Quick Reference]()
+- [Details of API functions]()
+- [Order a free SSL certificate]()
 
 #### Operation
 ##### Administration
-- [OVH Load Balancer: HTTP Header]
-- [Working with redirections]
-- [Working with zones]
-- [Working with HTTP routes]
-- [Working with probes]
-- [Routing an Additional IP]
-- [Tracking connections]
-- [ProxyProtool get Source IP]
+- [OVH Load Balancer: HTTP Header]()
+- [Working with redirections]()
+- [Working with zones]()
+- [Working with HTTP routes]()
+- [Working with probes]()
+- [Routing an Additional IP]()
+- [Tracking connections]()
+- [ProxyProtool get Source IP]()
 
 ##### Deployments
-- [Configuring a HTTP/HTTPS OVH Load Balancer Service]
-- [Configuring the vRack on the Load Balancer]
+- [Configuring a HTTP/HTTPS OVH Load Balancer Service]()
+- [Configuring the vRack on the Load Balancer]()
 
 ##### Use Cases
-- [Deploying a blue-green infrastructure]
-- [Configuring HTTP/2 on an OVH Load Balancer service]
-- [Configuring SMTP on a Load Balancer service]
+- [Deploying a blue-green infrastructure]()
+- [Configuring HTTP/2 on an OVH Load Balancer service]()
+- [Configuring SMTP on a Load Balancer service]()
 
 #### Troubleshooting
-- [Retrieve server health status]
-
-### Private Network (vRack)
-- Getting Started
-- Configuration
-- Administration
-- [Monitoring IP](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-monitoring-ip-ovhcloud?id=kb_article_view&sysparm_article=KB0043747)
-- [IP aliasing](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-network-ipaliasing?id=kb_article_view&sysparm_article=KB0043752)
-- [IPv6 configuration](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-network-ipv6?id=kb_article_view&sysparm_article=KB0030803)
-- [Support for virtual MAC](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-network-support-virtual-mac?id=kb_article_view&sysparm_article=KB0043782)
-- [Virtual MAC configuration](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-network-virtual-mac?id=kb_article_view&sysparm_article=KB0043806)
-- [Configuring the network on ESXi on the High Grade & SCALE ranges](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-esxi-network-hg-scale?id=kb_article_view&sysparm_article=KB0043420)
-- [Configuring the network on Proxmox on the High Grade & SCALE ranges](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-proxmox-network-hg-scale?id=kb_article_view&sysparm_article=KB0043909)
-- [Configuring the network on Windows Server with Hyper-V on the High Grade & SCALE ranges](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-hyperv-network-hg-scale?id=kb_article_view&sysparm_article=KB0043583)
-- [PCI DSS compliance with vRack](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-vrack-pci-ds?id=kb_article_view&sysparm_article=KB0043354)
-- [Failover IP in a vRack with Hyper-V](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-foip-vrack-hyperv?id=kb_article_view&sysparm_article=KB0043622)
-- [Multiple VLANs in a vRack](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-multiple-vlans?id=kb_article_view&sysparm_article=KB0043720)
-- [Changing the announcement of an IP block in a vRack](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-change-anouncement-ip-block-vrack?id=kb_article_view&sysparm_article=KB0044051)
-- [Configuring an IP block in a vRack](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-ip-block-vrack?id=kb_article_view&sysparm_article=KB0043339)
-- [Configuring a vRack](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-configuring-vrack?id=kb_article_view&sysparm_article=KB0044063)
-- [Configure an IPv6 in a vRack](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-configure-an-ipv6-in-a-vrack?id=kb_article_view&sysparm_article=KB0062826)
-- [Network Jumbo Frames](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-network-jumbo?id=kb_article_view&sysparm_article=KB0043202)
-- Support / Troubleshooting
+- [Retrieve server health status]()
 
 ### vRack Private Network
 #### Account and service management
@@ -487,28 +468,29 @@ ______________________________________________________________________
 
 
 ### OVHcloud Connect
-- Getting Started
-- [OVHcloud Connect Overview](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-overview?id=kb_article_view&sysparm_article=KB0045216)
-- Configuration
-- Administration
-- [OVHcloud Connect Layer 2](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-layer2?id=kb_article_view&sysparm_article=KB0045242)
-- [OVHcloud Connect Layer 3](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-layer3?id=kb_article_view&sysparm_article=KB0045254)
-- Support / Troubleshooting
+#### Key concepts
+- [Concepts overview](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-overview?id=kb_article_view&sysparm_article=KB0045221)
+- [Layer 2 mode](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-layer2?id=kb_article_view&sysparm_article=KB0045258)
+- [Layer 3 mode](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-layer3?id=kb_article_view&sysparm_article=KB0045252)
 - [OVHcloud Connect FAQ](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-faq?id=kb_article_view&sysparm_article=KB0045283)
-- [OVHcloud Connect Troubleshooting](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-troubleshooting?id=kb_article_view&sysparm_article=KB0045275)
-- [OVHcloud Connect Limits](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-limits?id=kb_article_view&sysparm_article=KB0045257)
+
+#### Getting Started
+- [Installation of OVHcloud Connect Direct from the OVHcloud Control Panel](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-occ-direct-control-panel-setup?id=kb_article_view&sysparm_article=KB0045228)
+- [Installation of OVHcloud Connect Provider from the OVHcloud Control Panel](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-provider-control-panel-setup?id=kb_article_view&sysparm_article=KB0045276)
+
+#### Operation
 - [Configuration of OVHcloud Connect using OVHcloud APIv6](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-api?id=kb_article_view&sysparm_article=KB0045233)
 
+#### Troubleshooting
+- [OVHcloud Connect Troubleshooting](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-troubleshooting?id=kb_article_view&sysparm_article=KB0045275)
+- [Technical capabilities and limitations](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-limits?id=kb_article_view&sysparm_article=KB0045257)
+
+
 ### Bring Your Own IP (BYOIP)
-- Configuration
-- Administration
-- [Overview of Bring Your Own IP](https://help.ovhcloud.com/csm/en-ie-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044851)
+- [How to use the Bring Your Own IP feature](https://help.ovhcloud.com/csm/en-ie-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044851)
+
 
 ### Security
-- Configuration
-- Administration
-- [Network firewall configuration](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-firewall-network?id=kb_article_view&sysparm_article=KB0043450)
-- [Game DDoS firewall](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-game-ddos-firewall?id=kb_article_view&sysparm_article=KB0060676)
-- [Network Security Dashboard](https://help.ovhcloud.com/csm/en-ie-network-security-dashboard?id=kb_article_view&sysparm_article=KB0060698)
-
-## Additional Resources
+- [Enabling and configuring the Edge Network Firewall](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-firewall-network?id=kb_article_view&sysparm_article=KB0043450)
+- [How to protect a Game server with the application firewall](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-game-ddos-firewall?id=kb_article_view&sysparm_article=KB0060676)
+- [Monitoring DDoS attacks with the Network Security Dashboard](https://help.ovhcloud.com/csm/en-ie-network-security-dashboard?id=kb_article_view&sysparm_article=KB0060698)
