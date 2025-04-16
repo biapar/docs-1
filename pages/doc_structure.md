@@ -170,7 +170,6 @@ ______________________________________________________________________
 - [How to use the Bring Your Own IP feature](https://help.ovhcloud.com/csm/en-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044856)
 
 #### Dedicated Servers
-- [Enabling and configuring the Edge Network Firewall](https://help.ovhcloud.com/csm/en-dedicated-servers-firewall-network?id=kb_article_view&sysparm_article=KB0043448)
 - [Configuring the network on Proxmox VE on the High Grade, Scale & Advance ranges](https://help.ovhcloud.com/csm/en-dedicated-servers-proxmox-network-hg-scale?id=kb_article_view&sysparm_article=KB0043913)
 - [Configuring a network bridge](https://help.ovhcloud.com/csm/en-dedicated-servers-network-bridging?id=kb_article_view&sysparm_article=KB0043731)
 - [Tutorial - Configuring pfSense network bridge](https://help.ovhcloud.com/csm/en-dedicated-servers-pfsense-bridging?id=kb_article_view&sysparm_article=KB0043897)
@@ -180,7 +179,6 @@ ______________________________________________________________________
 - [How to protect a Game server with the application firewall](https://help.ovhcloud.com/csm/en-dedicated-servers-game-ddos-firewall?id=kb_article_view&sysparm_article=KB0060680)
 - [Assigning a Virtual MAC to an Additional IP](https://help.ovhcloud.com/csm/en-dedicated-servers-network-virtual-mac?id=kb_article_view&sysparm_article=KB0043799)
 - [Moving an Additional IP](https://help.ovhcloud.com/csm/en-dedicated-servers-ip-fo-move?id=kb_article_view&sysparm_article=KB0043711)
-- [Monitoring DDoS attacks with the Network Security Dashboard](https://help.ovhcloud.com/csm/en-network-security-dashboard?id=kb_article_view&sysparm_article=KB0060700)
 - [Setting up a Virtual Machine using Additional IPs and Hyper-V over a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-foip-vrack-hyperv?id=kb_article_view&sysparm_article=KB0043621)
 - [Configuring an IPv6 block in a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-configure-an-ipv6-in-a-vrack?id=kb_article_view&sysparm_article=KB0062838)
 
