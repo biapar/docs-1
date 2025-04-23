@@ -6,7 +6,7 @@
 - [What is a dedicated server ?](to_be_created)
 - [Bare Metal 3-AZ Region - Service presentation](https://help.ovhcloud.com/csm/en-dedicated-servers-3az-cluster?id=kb_article_view&sysparm_article=KB0063271)
 - [Kimsufi and So You Start customers - Get to know the OVHcloud Control Panel](https://help.ovhcloud.com/csm/en-dedicated-servers-ovhcloud-control-panel-guided-tour?id=kb_article_view&sysparm_article=KB0043463)
-- [Managing billing, payments, and services](https://help.ovhcloud.com/csm/en-dedicated-servers-managing-billing-payments-services-raci-dedicated-server?id=kb_article_view&sysparm_article=KB0061754)
+- [Shared responsiblity for Dedicated Servers](https://help.ovhcloud.com/csm/en-dedicated-servers-managing-billing-payments-services-raci-dedicated-server?id=kb_article_view&sysparm_article=KB0061754)
 
 
 #### Getting Started
@@ -15,17 +15,19 @@
 - [How to get started with SSH connections](https://help.ovhcloud.com/csm/en-dedicated-servers-ssh-introduction?id=kb_article_view&sysparm_article=KB0044021)
 - [How to store public authentication keys in the OVHcloud Control Panel](https://help.ovhcloud.com/csm/en-dedicated-servers-import-keys?id=kb_article_view&sysparm_article=KB0065623)
 - [How to use the IPMI console with a dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-ipmi?id=kb_article_view&sysparm_article=KB0044037)
-- [Shared responsibility for Dedicated Servers](https://help.ovhcloud.com/csm/en-managing-billing-payments-services-raci-dedicated-server?id=kb_article_view&sysparm_article=KB0061754)
 - [How to obtain the carbon footprint of your OVHcloud services](https://help.ovhcloud.com/csm/en-carbon-footprint-calculator?id=kb_article_view&sysparm_article=KB0066739)
 
 #### Operation
 ##### Administration
+
 ***System***
-- [Change the root password](https://help.ovhcloud.com/csm/en-dedicated-servers-root-password?id=kb_article_view&sysparm_article=KB0043633)
+- [How to configure user accounts and root access on a server](https://help.ovhcloud.com/csm/en-dedicated-servers-root-password?id=kb_article_view&sysparm_article=KB0043633)
 - [Changing a Windows Server product key](https://help.ovhcloud.com/csm/en-dedicated-servers-windows-key?id=kb_article_view&sysparm_article=KB0044093)
 - [Changing the admin password on a Windows dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-windows-admin-password-change?id=kb_article_view&sysparm_article=KB0043295)
 - [Managing Intel SGX on a dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-intel-sgx?id=kb_article_view&sysparm_article=KB0044005)
 - [Hardware upgrade on a High Grade or Scale dedicated server](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-hardware-upgrade-hg-scale?id=kb_article_view&sysparm_article=KB0060745)
+
+
 ***Storage***
 - [How to configure and rebuild software RAID](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-raid-soft?id=kb_article_view&sysparm_article=KB0043933)
 - [Managing hardware RAID](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-raid-hard?id=kb_article_view&sysparm_article=KB0043928)
@@ -39,23 +41,24 @@
 - [Advance Dedicated Servers - Upgrading your Samsung NVMe PM9A1 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-samsung-nvme-firmware-upgrade?id=kb_article_view&sysparm_article=KB0060082)
 - [High Grade Dedicated Servers - Upgrading your SSD SAS Western Digital SS300 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-wd-sas-firmware-upgrade?id=kb_article_view&sysparm_article=KB0062305)
 - [High Grade Dedicated Servers - Upgrading your SSD SAS Western Digital SS530 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-wdc-sas-ss530-firmware-upgrade?id=kb_article_view&sysparm_article=KB0064265)
+
 ***Network***
-- [Introduction to SSH](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-ssh-introduction?id=kb_article_view&sysparm_article=KB0044020)
+- [IHow to get started with SSH connections](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-ssh-introduction?id=kb_article_view&sysparm_article=KB0044020)
 - [How to create and use authentication keys for SSH connections to OVHcloud servers](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-creating-ssh-keys?id=kb_article_view&sysparm_article=KB0043380)
 - [Configuring OVHcloud Secondary DNS on a dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-secondary-dns?id=kb_article_view&sysparm_article=KB0043239)
 - [Install an OVHcloud SSH key](https://help.ovhcloud.com/csm/en-dedicated-servers-ovhcloud-ssh-key?id=kb_article_view&sysparm_article=KB0043874)
-- [Optimise email sending](https://help.ovhcloud.com/csm/en-dedicated-servers-optimise-email-sending?id=kb_article_view&sysparm_article=KB0043640)
-- [OLA Manager](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-manager?id=kb_article_view&sysparm_article=KB0043836)
-- [OLA for Debian 9](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-debian9?id=kb_article_view&sysparm_article=KB0043834)
-- [OLA for CentOS 7](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-centos7?id=kb_article_view&sysparm_article=KB0043807)
-- [OLA for Windows Server 2019](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-w2k19?id=kb_article_view&sysparm_article=KB0043856)
-- [OLA for SLES 15](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-sles15?id=kb_article_view&sysparm_article=KB0057041)
-- [OLA Netboot](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-netboot?id=kb_article_view&sysparm_article=KB0057768)
-- [Set up LAMP on Debian/Ubuntu](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-setup-lamp-debian-ubuntu?id=kb_article_view&sysparm_article=KB0043610)
+- [How to prevent your emails from being marked as spam](https://help.ovhcloud.com/csm/en-dedicated-servers-optimise-email-sending?id=kb_article_view&sysparm_article=KB0043640)
+- [Configuring OVHcloud Link Aggregation in the OVHcloud Control Panel](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-manager?id=kb_article_view&sysparm_article=KB0043836)
+- [How to Configure Your NIC for OVHcloud Link Aggregation in Debian 9 to 11](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-debian9?id=kb_article_view&sysparm_article=KB0043834)
+- [How to configure Link Aggregation with LACP in Debian 12 or Ubuntu 24.04](https://help.ovhcloud.com/csm/en-gb-dedicated-servers-netplan-link-aggregation?id=kb_article_view&sysparm_article=KB0064968)
+- [How to Configure Your NIC for OVHcloud Link Aggregation in Windows Server 2019](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-w2k19?id=kb_article_view&sysparm_article=KB0043856)
+- [How to Configure Your NIC for OVHcloud Link Aggregation in SLES 15](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-sles15?id=kb_article_view&sysparm_article=KB0057041)
+- [How to set up a web server (LAMP) on Debian or Ubuntu](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-setup-lamp-debian-ubuntu?id=kb_article_view&sysparm_article=KB0043610)
+- [Manage your server reboot with the OVHcloud Link Aggregation feature](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-netboot?id=kb_article_view&sysparm_article=KB0057776)
 
 ##### Deployments
-- [Activate Windows VM with Hyper-V](https://help.ovhcloud.com/csm/en-dedicated-servers-activate-windows-vm-hyperv?id=kb_article_view&sysparm_article=KB0043231)
-- [Install OS via API](https://help.ovhcloud.com/csm/en-dedicated-servers-api-os-installation?id=kb_article_view&sysparm_article=KB0061951)
+- [Activating Windows Machines using Hyper-V on an OVHcloud licensed Windows Server](https://help.ovhcloud.com/csm/en-dedicated-servers-activate-windows-vm-hyperv?id=kb_article_view&sysparm_article=KB0043231)
+- [OVHcloud API and OS Installation](https://help.ovhcloud.com/csm/en-dedicated-servers-api-os-installation?id=kb_article_view&sysparm_article=KB0061951)
 - [Bring Your Own Image (BYOI)](https://help.ovhcloud.com/csm/en-dedicated-servers-bringyourownimage?id=kb_article_view&sysparm_article=KB0043281)
 - [Bring Your Own Linux (BYOLinux)](https://help.ovhcloud.com/csm/en-dedicated-servers-bring-your-own-linux?id=kb_article_view&sysparm_article=KB0061610)
 - [Configure a custom iPXE script to boot your server from the OVHcloud API](https://help.ovhcloud.com/csm/en-dedicated-servers-ipxe-scripts?id=kb_article_view&sysparm_article=KB0058505)
@@ -65,20 +68,20 @@
 - [Copying data from one dedicated server to another using rsync](https://help.ovhcloud.com/csm/en-dedicated-servers-copy-data-server-rsync?id=kb_article_view&sysparm_article=KB0043556)
 
 ##### Use Cases
-- [pfSense Bridging](https://help.ovhcloud.com/csm/en-dedicated-servers-pfsense-bridging?id=kb_article_view&sysparm_article=KB0043897)
+- [Tutorial - Configuring pfSense network bridge](https://help.ovhcloud.com/csm/en-dedicated-servers-pfsense-bridging?id=kb_article_view&sysparm_article=KB0043897)
 - [Set up LAMP on Debian/Ubuntu](https://help.ovhcloud.com/csm/en-dedicated-servers-setup-lamp-debian-ubuntu?id=kb_article_view&sysparm_article=KB0043611)
-- [Install CUDA on a GPU server](https://help.ovhcloud.com/csm/en-dedicated-servers-install-cuda-server-gpu?id=kb_article_view&sysparm_article=KB0043393)
+- [How to install CUDA on a dedicated GPU server](https://help.ovhcloud.com/csm/en-dedicated-servers-install-cuda-server-gpu?id=kb_article_view&sysparm_article=KB0043393)
 
 #### Security
 ##### Hardening
 - [How to secure a dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-securing-server?id=kb_article_view&sysparm_article=KB0043988)
 - [Securing a server with a Memcached service](https://help.ovhcloud.com/csm/en-dedicated-servers-securing-server-memcached-service?id=kb_article_view&sysparm_article=KB0043684)
-- [Zenbleed vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-zenbleed-vulnerability?id=kb_article_view&sysparm_article=KB0059006)
-- [Downfall vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-downfall-vulnerability?id=kb_article_view&sysparm_article=KB0059180)
-- [Inception vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-inception-vulnerability?id=kb_article_view&sysparm_article=KB0059208)
-- [Meltdown and Spectre kernel update per OS](https://help.ovhcloud.com/csm/en-dedicated-servers-meltdown-spectre-kernel-update-per-operating-system?id=kb_article_view&sysparm_article=KB0043669)
-- [Meltdown and Spectre fixes](https://help.ovhcloud.com/csm/en-dedicated-servers-information-about-meltdown-spectre-vulnerability-fixes?id=kb_article_view&sysparm_article=KB0043665)
-- [AMD SME and SEV on Ubuntu 20](https://help.ovhcloud.com/csm/en-dedicated-servers-amd-sme-sev?id=kb_article_view&sysparm_article=KB0044018)
+- [How to mitigate the Zenbleed vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-zenbleed-vulnerability?id=kb_article_view&sysparm_article=KB0059006)
+- [How to mitigate the Downfall vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-downfall-vulnerability?id=kb_article_view&sysparm_article=KB0059180)
+- [How to mitigate the Inception vulnerability](https://help.ovhcloud.com/csm/en-dedicated-servers-inception-vulnerability?id=kb_article_view&sysparm_article=KB0059208)
+- [Find your patch for Meltdown and Spectre](https://help.ovhcloud.com/csm/en-dedicated-servers-meltdown-spectre-kernel-update-per-operating-system?id=kb_article_view&sysparm_article=KB0043669)
+- [Information about Meltdown and Spectre vulnerability fixes](https://help.ovhcloud.com/csm/en-dedicated-servers-information-about-meltdown-spectre-vulnerability-fixes?id=kb_article_view&sysparm_article=KB0043665)
+- [AMD SME/SEV on Ubuntu 20](https://help.ovhcloud.com/csm/en-dedicated-servers-amd-sme-sev?id=kb_article_view&sysparm_article=KB0044018)
 
 ##### Backup
 - [Preparing a Bare Metal Server backup with Veeam Enterprise](https://help.ovhcloud.com/csm/en-veeam-enterprise-server-backup-preparation?id=kb_article_view&sysparm_article=KB0062499)
@@ -93,23 +96,23 @@
 
 #### Troubleshooting
 - [How to recover access if the user password is lost](https://help.ovhcloud.com/csm/en-dedicated-servers-change-password?id=kb_article_view&sysparm_article=KB0061802)
-- [OVHcloud Rescue](https://help.ovhcloud.com/csm/en-dedicated-servers-ovhcloud-rescue?id=kb_article_view&sysparm_article=KB0043949)
-- [Replacing a lost SSH key pair](https://help.ovhcloud.com/csm/en-dedicated-servers-replacing-lost-ssh-key-pair?id=kb_article_view&sysparm_article=KB0056390)
-- [Disk replacement](https://help.ovhcloud.com/csm/en-dedicated-servers-disk-replacement?id=kb_article_view&sysparm_article=KB0043410)
-- [Hardware diagnostics](https://help.ovhcloud.com/csm/en-dedicated-servers-hardware-diagnostics?id=kb_article_view&sysparm_article=KB0043506)
-- [Find the disk serial number](https://help.ovhcloud.com/csm/en-dedicated-servers-find-disk-serial-number?id=kb_article_view&sysparm_article=KB0043570)
-- [Intervention follow-up](https://help.ovhcloud.com/csm/en-dedicated-servers-intervention-follow-up?id=kb_article_view&sysparm_article=KB0058043)
-- [Create a support ticket](https://help.ovhcloud.com/csm/en-dedicated-servers-create-support-ticket?id=kb_article_view&sysparm_article=KB0043232)
+- [How to activate and use rescue mode](https://help.ovhcloud.com/csm/en-dedicated-servers-ovhcloud-rescue?id=kb_article_view&sysparm_article=KB0043949)
+- [How to replace an SSH key paier](https://help.ovhcloud.com/csm/en-dedicated-servers-replacing-lost-ssh-key-pair?id=kb_article_view&sysparm_article=KB0056390)
+- [Replacing a defective disk](https://help.ovhcloud.com/csm/en-dedicated-servers-disk-replacement?id=kb_article_view&sysparm_article=KB0043410)
+- [How to perform server hardware diagnostics in rescue mode](https://help.ovhcloud.com/csm/en-dedicated-servers-hardware-diagnostics?id=kb_article_view&sysparm_article=KB0043506)
+- [Finding the serial number of a hard disk](https://help.ovhcloud.com/csm/en-dedicated-servers-find-disk-serial-number?id=kb_article_view&sysparm_article=KB0043570)
+- [Finalise a maintenance intervention on your dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-intervention-follow-up?id=kb_article_view&sysparm_article=KB0058043)
 - [VMWare ESXi on OVHcloud dedicated servers - End of Support](https://help.ovhcloud.com/csm/en-dedicated-servers-esxi-end-of-support?id=kb_article_view&sysparm_article=KB0064641)
 - [Uninstalling the RTM v2 monitoring system](https://help.ovhcloud.com/csm/en-dedicated-servers-uninstall-rtm?id=kb_article_view&sysparm_article=KB0058488)
 - [How to retrieve database in rescue mode](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-retrieve-database?id=kb_article_view&sysparm_article=KB0057660)
+- [Finalise a maintenance intervention on your dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-intervention-follow-up?id=kb_article_view&sysparm_article=KB0058043)
 
 ______________________________________________________________________
 ______________________________________________________________________
 
 ## Storage and Backup
 ### File Storage
-#### Enterprise File Storage (structure à inverser)
+#### Enterprise File Storage
 ##### Key concepts
 - [Enterprise File Storage - Concepts](https://help.ovhcloud.com/csm/en-ie-public-cloud-storage-netapp-concepts?id=kb_article_view&sysparm_article=KB0046790)
 - [Enterprise File Storage - Performance Concepts](https://help.ovhcloud.com/csm/en-ie-public-cloud-storage-netapp-performances?id=kb_article_view&sysparm_article=KB0046803)
@@ -163,9 +166,6 @@ ______________________________________________________________________
 
 ## Network
 ### Additional IP
-#### Account and service management
-- [Dedicated Servers Reversibility Policy](https://help.ovhcloud.com/csm/en-reversibility-dedicated-servers-reversibility-policy?id=kb_article_view&sysparm_article=KB0062184)
-- [Block Storage security specifications](https://help.ovhcloud.com/csm/en-public-cloud-block-storage-security-overview?id=kb_article_view&sysparm_article=KB0066119)
 #### Bring your own IP
 - [How to use the Bring Your Own IP feature](https://help.ovhcloud.com/csm/en-network-bring-your-own-ip?id=kb_article_view&sysparm_article=KB0044856)
 
@@ -262,116 +262,55 @@ ______________________________________________________________________
 - [Retrieve server health status](https://help.ovhcloud.com/csm/en-load-balancer-retrieve-servers-state?id=kb_article_view&sysparm_article=KB0044216)
 
 ### vRack Private Network
-#### Account and service management
-***Account Information***
-- [Security specification for Private Cloud by VMmare](https://help.ovhcloud.com/csm/en-security-specifications-hosted-private-cloud-vmvare?id=kb_article_view&sysparm_article=KB0063084)
-- [Security specification for Private Cloud VMmare under SecNumCloud qualification](https://help.ovhcloud.com/csm/en-security-specifications-secnumcloud-hosted-private-cloud-vmvare?id=kb_article_view&sysparm_article=KB0063058)
-***Reversibility***
-- [Dedicated Servers Reversibility Policy](https://help.ovhcloud.com/csm/en-reversibility-dedicated-servers-reversibility-policy?id=kb_article_view&sysparm_article=KB0062184)
-- [Hosted Private Cloud Reversibility Policy](https://help.ovhcloud.com/csm/en-reversibility-hosted-private-cloud-reversibility-policy?id=kb_article_view&sysparm_article=KB0062207)
-- [Reversibility policy for the service VMware on OVHcloud under SecNumCloud qualification](https://help.ovhcloud.com/csm/en-reversibility-policy-snc-vmware-on-ovhcloud?id=kb_article_view&sysparm_article=KB0062236
-)
 
 #### BGP Service
 - [BGP Service configuration](https://help.ovhcloud.com/csm/en-network-bgp-service-configuration?id=kb_article_view&sysparm_article=KB0066886)
 
 #### Dedicated Servers
 - [Configuring the network on Proxmox VE on the High Grade, Scale & Advance ranges](https://help.ovhcloud.com/csm/en-dedicated-servers-proxmox-network-hg-scale?id=kb_article_view&sysparm_article=KB0043913)
-- [Tutorial - Configuring pfSense network bridge](https://help.ovhcloud.com/csm/en-dedicated-servers-pfsense-bridging?id=kb_article_view&sysparm_article=KB0043897)
 - [Configuring the vRack on your dedicated servers](https://help.ovhcloud.com/csm/en-dedicated-servers-configuring-vrack?id=kb_article_view&sysparm_article=KB0044066)
-- [OVHcloud AntiSpam - Best Practices and Unblocking an IP](https://help.ovhcloud.com/csm/en-dedicated-servers-antispam-best-practices?id=kb_article_view&sysparm_article=KB0043252)
 - [Configuring the network on Windows Server with Hyper-V](https://help.ovhcloud.com/csm/en-dedicated-servers-hyperv-network-hg-scale?id=kb_article_view&sysparm_article=KB0043585)
 - [Configuring an IP block in a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-ip-block-vrack?id=kb_article_view&sysparm_article=KB0043342)
-- [Assigning a Virtual MAC to an Additional IP](https://help.ovhcloud.com/csm/en-dedicated-servers-network-virtual-mac?id=kb_article_view&sysparm_article=KB0043799)
 - [Configuring the vRack between the Public Cloud and a Dedicated Server](https://help.ovhcloud.com/csm/en-dedicated-servers-vrack-pci-ds?id=kb_article_view&sysparm_article=KB0043984)
 - [Creating multiple vLANs in a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-multiple-vlans?id=kb_article_view&sysparm_article=KB0043368)
-- [Moving an Additional IP](https://help.ovhcloud.com/csm/en-dedicated-servers-ip-fo-move?id=kb_article_view&sysparm_article=KB0043711)
-- [Finalise a maintenance intervention on your dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-intervention-follow-up?id=kb_article_view&sysparm_article=KB0058043)
-- [Manage your server reboot with the OVHcloud Link Aggregation feature](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-netboot?id=kb_article_view&sysparm_article=KB0057776)
 - [Setting up a Virtual Machine using Additional IPs and Hyper-V over a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-foip-vrack-hyperv?id=kb_article_view&sysparm_article=KB0043621)
 - [Configuring an IPv6 block in a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-configure-an-ipv6-in-a-vrack?id=kb_article_view&sysparm_article=KB0062838)
 - [How to Configure Your NIC for OVHcloud Link Aggregation in Debian 9 to 11](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-debian9?id=kb_article_view&sysparm_article=KB0043822)
-- [Find your patch for Meltdown and Spectre](https://help.ovhcloud.com/csm/en-dedicated-servers-meltdown-spectre-kernel-update-per-operating-system?id=kb_article_view&sysparm_article=KB0043669)
-- [Preparing a Bare Metal Server backup with Veeam Enterprise](https://help.ovhcloud.com/csm/en-veeam-enterprise-server-backup-preparation?id=kb_article_view&sysparm_article=KB0062499)
-- [Backing up data and databases on a Storage Server](https://help.ovhcloud.com/csm/en-dedicated-servers-data-database-backup-storage-server?id=kb_article_view&sysparm_article=KB0043961)
 - [Configuring Jumbo Frames in vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-network-jumbo?id=kb_article_view&sysparm_article=KB0043199)
 - [Change the announcement of an IP block in vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-change-anouncement-ip-block-vrack?id=kb_article_view&sysparm_article=KB0044054)
-- [How to Configure Your NIC for OVHcloud Link Aggregation in Windows Server 2019](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-w2k19?id=kb_article_view&sysparm_article=KB0043863)
-- [Information about Meltdown and Spectre vulnerability fixes](https://help.ovhcloud.com/csm/en-dedicated-servers-information-about-meltdown-spectre-vulnerability-fixes?id=kb_article_view&sysparm_article=KB0043665)
-- [How to Configure Your NIC for OVHcloud Link Aggregation in SLES 15](https://help.ovhcloud.com/csm/en-dedicated-servers-ola-sles15?id=kb_article_view&sysparm_article=KB0057039)
 - [Upgrade and downgrade private bandwidth (vRack) via the OVHcloud API](https://help.ovhcloud.com/csm/en-dedicated-servers-manage-vrack-bandwidth-api?id=kb_article_view&sysparm_article=KB0066164)
 
 #### Hosted Private Cloud
+
 ***Nutanix on OVHcloud***
-- [OVHgateway documentation](https://help.ovhcloud.com/csm/en-nutanix-ovh-gateway-documentation?id=kb_article_view&sysparm_article=KB0045003)
 - [Adding a public IP address to a new VM](https://help.ovhcloud.com/csm/en-nutanix-public-ip?id=kb_article_view&sysparm_article=KB0045016)
 - [Configuring Disaster Recovery with Metro](https://help.ovhcloud.com/csm/en-nutanix-metro-availability?id=kb_article_view&sysparm_article=KB0045184)
-- [Advanced replication with Leap](https://help.ovhcloud.com/csm/en-nutanix-leap-replication?id=kb_article_view&sysparm_article=KB0045177)
 - [Replacing the OVHgateway with a dedicated server](https://help.ovhcloud.com/csm/en-nutanix-hardware-gateway-replacement?id=kb_article_view&sysparm_article=KB0045060)
 - [Nutanix on OVHcloud - High-level documentation](https://help.ovhcloud.com/csm/en-nutanix-high-level-documentation?id=kb_article_view&sysparm_article=KB0044890)
-- [Disaster Recovery Plan in Nutanix](https://help.ovhcloud.com/csm/en-nutanix-drp-overview?id=kb_article_view&sysparm_article=KB0045133)
-- [Securing Prism Central Web access](https://help.ovhcloud.com/csm/en-nutanix-prism-web-ui-security?id=kb_article_view&sysparm_article=KB0045018)
 - [Interconnect clusters through the vRack](https://help.ovhcloud.com/csm/en-nutanix-vrack-interconnection?id=kb_article_view&sysparm_article=KB0045159)
-- [Responsibility sharing - Nutanix on OVHcloud](https://help.ovhcloud.com/csm/en-nutanix-raci?id=kb_article_view&sysparm_article=KB0045210)
 - [Changing the vRack of a Nutanix cluster](https://help.ovhcloud.com/csm/en-nutanix-change-vrack?id=kb_article_view&sysparm_article=KB0045028)
-***SAP on OVHcloud***
-- [SAP infrastructure with SecNumCloud-qualified SAP HANA on Private Cloud](https://help.ovhcloud.com/csm/en-sap-vmware-secnumcloud?id=kb_article_view&sysparm_article=KB0066925)
+
 ***VMware on OVHcloud***
-- [Configure an IP address on a virtual machine](https://help.ovhcloud.com/csm/en-vmware-configure-ip-virtual-machine?id=kb_article_view&sysparm_article=KB0045428)
 - [Enabling promiscuous mode on a Virtual Machine](https://help.ovhcloud.com/csm/en-vmware-promiscuous-mode?id=kb_article_view&sysparm_article=KB0058210)
-- [VMware NSX-V - End of Life](https://help.ovhcloud.com/csm/en-vmware-nsx-v-eos?id=kb_article_view&sysparm_article=KB0058428)
-- [Segment management in NSX](https://help.ovhcloud.com/csm/en-vmware-nsx-segment-management?id=kb_article_view&sysparm_article=KB0056849)
-- [Deploying a virtual machine](https://help.ovhcloud.com/csm/en-vmware-deploying-virtual-machine?id=kb_article_view&sysparm_article=KB0045524)
-- [Getting started with NSX](https://help.ovhcloud.com/csm/en-vmware-nsx-first-steps?id=kb_article_view&sysparm_article=KB0056833)
-- [VMware Cloud Director - The fundamentals of VCD](https://help.ovhcloud.com/csm/en-vmware-vcd-concepts?id=kb_article_view&sysparm_article=KB0062563)
-- [NSX - FAQ](https://help.ovhcloud.com/csm/en-vmware-nsx-faq?id=kb_article_view&sysparm_article=KB0058377)
 - [How to create a VLAN](https://help.ovhcloud.com/csm/en-vmware-vlan-creation?id=kb_article_view&sysparm_article=KB0045470)
-- [Configure BGP between two PCCs via NSX-T](https://help.ovhcloud.com/csm/en-vmware-nsx-configure-bgp-between-pcc?id=kb_article_view&sysparm_article=KB0061855)
-- [VMware Cloud Director - Network concepts and best practices](https://help.ovhcloud.com/csm/en-vmware-vcd-network-concepts?id=kb_article_view&sysparm_article=KB0063773)
 - [Using Private Cloud within a vRack](https://help.ovhcloud.com/csm/en-vmware-vrack?id=kb_article_view&sysparm_article=KB0046128)
-- [Technical capabilities](https://help.ovhcloud.com/csm/en-vmware-technical-capabilities?id=kb_article_view&sysparm_article=KB0045674)
 - [vRack compatibility with Hosted Private Cloud](https://help.ovhcloud.com/csm/en-vmware-vrack-compatibility?id=kb_article_view&sysparm_article=KB0046377)
-- [VMware Cloud Director - Migrate from VMware vSphere on OVHcloud](https://help.ovhcloud.com/csm/en-vmware-vcd-migration-use-cases?id=kb_article_view&sysparm_article=KB0064081)
-- [VPN-SPN Concept](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-vpn-spn-concept?id=kb_article_view&sysparm_article=KB0065546)
-- [FAQ SecNumCloud Connectivity](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-faq?id=kb_article_view&sysparm_article=KB0065573)
-- [Concepts overview](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-overview-concept?id=kb_article_view&sysparm_article=KB0065516)
-- [SPN Concept](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-spn-concept?id=kb_article_view&sysparm_article=KB0065527)
 
 #### Load Balancer
-- [Introduction to the OVHcloud Load Balancer](https://help.ovhcloud.com/csm/en-load-balancer-loadbalancer-introduction?id=kb_article_view&sysparm_article=KB0044251)
-- [Routing an Additional IP](https://help.ovhcloud.com/csm/en-load-balancer-routing-foip?id=kb_article_view&sysparm_article=KB0044205)
 - [Details of API functions](https://help.ovhcloud.com/csm/en-load-balancer-api-details?id=kb_article_view&sysparm_article=KB0044234)
 - [Configuring the vRack on the load balancer](https://help.ovhcloud.com/csm/en-load-balancer-configure-vrack?id=kb_article_view&sysparm_article=KB0044259)
 
-#### Manage & Operate
-***IAM***
-- [How to use IAM policies using the OVHcloud Control Panel](https://help.ovhcloud.com/csm/en-customer-iam-policies-ui?id=kb_article_view&sysparm_article=KB0058729)
-- [List of permission groups managed by OVHcloud](https://help.ovhcloud.com/csm/en-customer-iam-permissionsgroup?id=kb_article_view&sysparm_article=KB0060252)
-***Terraform***
-- [Using Terraform with OVHcloud](https://help.ovhcloud.com/csm/en-terraform-at-ovhcloud?id=kb_article_view&sysparm_article=KB0054775)
-
 #### Managed Bare Metal
-- [Configure an IP address on a virtual machine](https://help.ovhcloud.com/csm/en-vmware-configure-ip-virtual-machine?id=kb_article_view&sysparm_article=KB0045428)
-- [Technical capabilities](https://help.ovhcloud.com/csm/en-managed-bare-metal-technical-capabilities?id=kb_article_view&sysparm_article=KB0044555)
 - [VLAN creation](https://help.ovhcloud.com/csm/en-managed-bare-metal-vlan-creation?id=kb_article_view&sysparm_article=KB0044674)
 - [Using Managed Bare Metal within a vRack](https://help.ovhcloud.com/csm/en-managed-bare-metal-using-vrack?id=kb_article_view&sysparm_article=KB0044608)
-- [Deploying a virtual machine](https://help.ovhcloud.com/csm/en-managed-bare-metal-deploying-virtual-machine?id=kb_article_view&sysparm_article=KB0044433)
-
-#### OVH Cloud Connect
-- [Concepts overview](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-overview?id=kb_article_view&sysparm_article=KB0045221)
-- [Layer 2 mode](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-layer2?id=kb_article_view&sysparm_article=KB0045258)
-- [Layer 3 mode](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-layer3?id=kb_article_view&sysparm_article=KB0045252)
-- [FAQ OVHcloud Connect](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-faq?id=kb_article_view&sysparm_article=KB0045285)
-- [Installation of OVHcloud Connect Direct from the OVHcloud Control Panel](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-occ-direct-control-panel-setup?id=kb_article_view&sysparm_article=KB0045229)
-- [Installation of OVHcloud Connect Provider from the OVHcloud Control Panel](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-provider-control-panel-setup?id=kb_article_view&sysparm_article=KB0045269)
-- [Configuration of OVHcloud Connect using OVHcloud APIv6](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-api?id=kb_article_view&sysparm_article=KB0045244)
-- [Technical capabilities and limitations](https://help.ovhcloud.com/csm/en-network-ovhcloud-connect-limits?id=kb_article_view&sysparm_article=KB0045272)
 
 #### Public Cloud
+
 ***General Information***
 - [How to use Terraform](https://help.ovhcloud.com/csm/en-public-cloud-compute-terraform?id=kb_article_view&sysparm_article=KB0050797)
 - [All you need to know to get started with Public Cloud](https://help.ovhcloud.com/csm/en-public-cloud-compute-essential-information?id=kb_article_view&sysparm_article=KB0050390)
 - [FAQ Public Cloud OVHcloud](https://help.ovhcloud.com/csm/en-public-cloud-databases-faq?id=kb_article_view&sysparm_article=KB0048918)
+
 ***Analytics***
 - [Dashboards - Tutorial - Expose your Dashboards instance in your private network via a reverse proxyNGINX](https://help.ovhcloud.com/csm/en-public-cloud-databases-grafana-reverse-proxy?id=kb_article_view&sysparm_article=KB0056399)
 - [OpenSearch - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-opensearch-capabilities?id=kb_article_view&sysparm_article=KB0049264)
@@ -385,16 +324,19 @@ ______________________________________________________________________
 - [Analytics - Getting started with Terraform](https://help.ovhcloud.com/csm/en-data-analytics-order-terraform?id=kb_article_view&sysparm_article=KB0066401)
 - [Analytics - Getting started with APIs](https://help.ovhcloud.com/csm/en-data-analytics-getting-started-api?id=kb_article_view&sysparm_article=KB0066378)
 
+
 ***AI & Machine Learning***
 - [AI Notebooks - Features, Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-ai-notebooks-capabilities?id=kb_article_view&sysparm_article=KB0048243)
 - [AI Deploy - Features, Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-ai-deploy-capabilities?id=kb_article_view&sysparm_article=KB0047968)
 - [AI Training - Features, Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-ai-training-capabilities?id=kb_article_view&sysparm_article=KB0048429)
 - [FAQ - AI Tools](https://help.ovhcloud.com/csm/en-public-cloud-ai-faq?id=kb_article_view&sysparm_article=KB0048194)
+
 ***Compute***
 - [How to create a Public Cloud instance and connect to it](https://help.ovhcloud.com/csm/en-public-cloud-compute-getting-started?id=kb_article_view&sysparm_article=KB0051009)
 - [Using instance backups to create or restore an instance](https://help.ovhcloud.com/csm/en-public-cloud-compute-create-restore-virtual-server-from-backup?id=kb_article_view&sysparm_article=KB0050670)
 - [Activating a Windows licence for an instance in private mode](https://help.ovhcloud.com/csm/en-public-cloud-compute-activate-windows-licence-private-mode-instance?id=kb_article_view&sysparm_article=KB0056163)
 - [Managing your Public Cloud Instances in Horizon](https://help.ovhcloud.com/csm/en-public-cloud-compute-managing-instance?id=kb_article_view&sysparm_article=KB0050939)
+
 ***Containers & Orchestration***
 - [Using vRack Private Network](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-using-vrack?id=kb_article_view&sysparm_article=KB0050015)
 - [Creating a cluster](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-create-cluster?id=kb_article_view&sysparm_article=KB0049685)
@@ -408,6 +350,7 @@ ______________________________________________________________________
 - [Getting Started with Managed Rancher Service](https://help.ovhcloud.com/csm/en-public-cloud-managed-rancher-service-getting-started?id=kb_article_view&sysparm_article=KB0061906)
 - [Working with vRack example - Managed Kubernetes and Public Cloud instances](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-vrack-example-k8s-pci?id=kb_article_view&sysparm_article=KB0050035)
 - [Known limits](https://help.ovhcloud.com/csm/en-public-network-services-known-limits?id=kb_article_view&sysparm_article=KB0060633)
+
 ***Databases***
 - [FAQ Public Cloud databases](https://help.ovhcloud.com/csm/en-public-cloud-databases-faq?id=kb_article_view&sysparm_article=KB0048918)
 - [Caching - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-redis-capabilities?id=kb_article_view&sysparm_article=KB0049479)
@@ -432,6 +375,7 @@ ______________________________________________________________________
 - [Public Cloud Databases - How to configure your Private Network](https://help.ovhcloud.com/csm/en-public-cloud-databases-configure-vrack?id=kb_article_view&sysparm_article=KB0048818)
 - [Public Cloud Databases - Getting started with Terraform](https://help.ovhcloud.com/csm/en-public-cloud-databases-order-terraform?id=kb_article_view&sysparm_article=KB0048834)
 - [Public Cloud Databases - Getting started with APIs](https://help.ovhcloud.com/csm/en-public-cloud-databases-order-api?id=kb_article_view&sysparm_article=KB0048756)
+
 ***Network Services***
 - [Concepts - Public Cloud Networking](https://help.ovhcloud.com/csm/en-public-cloud-network-concepts?id=kb_article_view&sysparm_article=KB0050134)
 - [Public Cloud Network Services - FAQ](https://help.ovhcloud.com/csm/en-public-cloud-network-faq?id=kb_article_view&sysparm_article=KB0050253)
@@ -448,19 +392,21 @@ ______________________________________________________________________
 - [Securing your OVHcloud infrastructure with Ubika WAAP Gateway](https://help.ovhcloud.com/csm/en-public-cloud-network-ubika-vrack?id=kb_article_view&sysparm_article=KB0065109)
 - [Public Cloud Network Services - Known limits](https://help.ovhcloud.com/csm/en-public-network-services-known-limits?id=kb_article_view&sysparm_article=KB0060633)
 
+#### SecNumCloud
+- [VPN-SPN Concept](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-vpn-spn-concept?id=kb_article_view&sysparm_article=KB0065546)
+- [FAQ SecNumCloud Connectivity](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-faq?id=kb_article_view&sysparm_article=KB0065573)
+- [Concepts overview](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-overview-concept?id=kb_article_view&sysparm_article=KB0065516)
+- [SPN Concept](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-spn-concept?id=kb_article_view&sysparm_article=KB0065527)
+
 #### Storage
+
 ***File Storage***
-- [HA-NAS - Frequently Asked Questions](https://help.ovhcloud.com/csm/en-public-cloud-storage-nas-faq?id=kb_article_view&sysparm_article=KB0046685)
-- [Enterprise File Storage - Concepts](https://help.ovhcloud.com/csm/en-public-cloud-storage-netapp-concepts?id=kb_article_view&sysparm_article=KB0046789)
-- [Enterprise File Storage - FAQ](https://help.ovhcloud.com/csm/en-public-cloud-storage-netapp-faq?id=kb_article_view&sysparm_article=KB0046836)
 - [Enterprise File Storage - Private network configuration](https://help.ovhcloud.com/csm/en-public-cloud-storage-netapp-network-configuration?id=kb_article_view&sysparm_article=KB0062715)
+
 ***Object Storage***
-- [Object Storage - FAQ](https://help.ovhcloud.com/csm/en-public-cloud-storage-s3-faq?id=kb_article_view&sysparm_article=KB0059679)
+- [Object Storage - How to connect Object Storage buckets with other resources in a vRack](https://help.ovhcloud.com/csm/en-public-cloud-storage-s3-with-private-network?id=kb_article_view&sysparm_article=KB0067161)
 
-#### Virtual Private Servers
-- [FAQ VPS OVHcloud](https://help.ovhcloud.com/csm/en-vps-faq?id=kb_article_view&sysparm_article=KB0047800)
-
-#### Miscellaneous
+#### vRack Services
 - [vRack Services - Exposing a Managed Service on your vRack](https://help.ovhcloud.com/csm/en-network-vrack-services-global-concept?id=kb_article_view&sysparm_article=KB0062706)
 
 
