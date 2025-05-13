@@ -76,15 +76,6 @@ hosted-private-cloud-sap-ovhcloud-automated-deployments: Déploiements automatis
 hosted-private-cloud-sap-ovhcloud-resilience: Résilience
 hosted-private-cloud-sap-ovhcloud-backups: Sauvegardes
 hosted-private-cloud-sap-ovhcloud-observability: Observabilité 
-ovhcloud-labs-data-collector: Data Collector
-ovhcloud-labs-data-collector-getting-started: Premiers pas
-ovhcloud-labs-power-web-hosting: POWER Web Hosting
-ovhcloud-labs-power-web-hosting-getting-started: Premiers pas
-ovhcloud-labs-power-web-hosting-nodejs: Node.js
-ovhcloud-labs-power-web-hosting-python: Python
-ovhcloud-labs-power-web-hosting-ruby: Ruby
-ovhcloud-labs-prescience: Prescience
-ovhcloud-labs-prescience-getting-started: Premiers pas
 public-cloud-ai-and-machine-learning: AI & machine learning
 public-cloud-ai-and-machine-learning-general-information: Informations générales
 public-cloud-ai-and-machine-learning-command-line-interface: Command Line Interface
