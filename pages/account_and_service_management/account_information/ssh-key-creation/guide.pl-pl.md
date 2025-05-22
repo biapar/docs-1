@@ -8,6 +8,10 @@ flag: hidden
 ## Wprowadzenie
 Ten przewodnik pomoże Ci dodać klucz SSH w panelu sterowania OVHcloud. Klucze SSH są używane do uwierzytelniania i szyfrowania połączeń z serwerami zdalnymi<sup>[1](#footnote-1)</sup>. Przed rozpoczęciem upewnij się, że masz dostęp do panelu sterowania OVHcloud.
 
+<video controls width="560" height="315">
+  <source src="videos/guide.pl-pl.webm" type="video/webm" />
+</video>
+
 ## Krok 1: Otwórz stronę "Moje oferty i usługi"
 Aby dodać klucz SSH, musisz najpierw znaleźć się na stronie "Moje oferty i usługi" w panelu sterowania OVHcloud. Strona ta jest dostępna pod adresem [https://www.ovh.com/manager/#/billing/autorenew/](https://www.ovh.com/manager/#/billing/autorenew/). Upewnij się, że jesteś zalogowany na swoje konto OVHcloud.
 

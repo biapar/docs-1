@@ -8,6 +8,10 @@ flag: hidden
 ## Introdução
 Bem-vindo ao guia de como adicionar uma chave SSH no Painel de Controle da OVHcloud. Este guia irá ajudá-lo a adicionar uma chave SSH, permitindo que você acesse seus servidores de forma segura. Antes de começar, certifique-se de que você tem acesso ao Painel de Controle da OVHcloud e que você está na página correta.
 
+<video controls width="560" height="315">
+  <source src="videos/guide.pt-pt.webm" type="video/webm" />
+</video>
+
 ## Passo 1: Acessar a página "Minhas ofertas e serviços"
 Para começar, você precisa acessar a página "Minhas ofertas e serviços" dentro do Painel de Controle da OVHcloud. Você pode fazer isso acessando a URL [https://www.ovh.com/manager/#/billing/autorenew/](https://www.ovh.com/manager/#/billing/autorenew/). Certifique-se de que você está na página correta, pois isso é fundamental para os próximos passos.
 

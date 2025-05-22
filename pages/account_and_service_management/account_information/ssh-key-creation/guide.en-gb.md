@@ -9,7 +9,7 @@ flag: hidden
 This guide will walk you through the process of adding an SSH key in the OVHcloud Control Panel. SSH keys*¹ are used to authenticate and connect to servers securely. To begin, ensure you have access to the OVHcloud Control Panel and navigate to the "My offers and services" page, which can be found at [https://www.ovh.com/manager/#/billing/autorenew/](https://www.ovh.com/manager/#/billing/autorenew/).
 
 <video controls width="560" height="315">
-  <source src="pages/account_and_service_management/account_information/ssh-key-creation/videos/guide.en-gb.webm" type="video/webm" />
+  <source src="videos/guide.en-gb.webm" type="video/webm" />
 </video> 
 
 ## Step 1: Access the "My offers and services" Page

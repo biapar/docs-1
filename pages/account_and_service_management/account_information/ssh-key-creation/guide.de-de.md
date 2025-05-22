@@ -8,6 +8,10 @@ flag: hidden
 ## Einleitung
 Willkommen bei diesem Leitfaden, in dem wir Ihnen Schritt für Schritt erklären, wie Sie einen SSH-Schlüssel*¹ im OVHcloud Control Panel hinzufügen. Dieser Vorgang ist wichtig, um die Sicherheit und Verwaltung Ihrer Server zu verbessern. Stellen Sie sicher, dass Sie die Anweisungen sorgfältig befolgen, um den Prozess erfolgreich abzuschließen.
 
+<video controls width="560" height="315">
+  <source src="videos/guide.de-de.webm" type="video/webm" />
+</video>
+
 ## Schritt 1: Zugriff auf die Seite "Meine Angebote und Dienstleistungen"
 Gehen Sie zunächst auf die Seite "Meine Angebote und Dienstleistungen" im OVHcloud Control Panel, die Sie unter der URL [https://www.ovh.com/manager/#/billing/autorenew/](https://www.ovh.com/manager/#/billing/autorenew/) finden. Stellen Sie sicher, dass Sie angemeldet sind, um auf Ihre Dienstleistungen zuzugreifen. 
 
