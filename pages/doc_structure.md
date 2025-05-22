@@ -171,53 +171,32 @@ ______________________________________________________________________
 
 #### Dedicated Servers
 - [Configuring the network on Proxmox VE on the High Grade, Scale & Advance ranges](https://help.ovhcloud.com/csm/en-dedicated-servers-proxmox-network-hg-scale?id=kb_article_view&sysparm_article=KB0043913)
-- [Configuring a network bridge](https://help.ovhcloud.com/csm/en-dedicated-servers-network-bridging?id=kb_article_view&sysparm_article=KB0043731)
+- [Configuring Additional IPs in bridge mode on your virtual machines](https://help.ovhcloud.com/csm/en-dedicated-servers-network-bridging?id=kb_article_view&sysparm_article=KB0043731)
 - [Tutorial - Configuring pfSense network bridge](https://help.ovhcloud.com/csm/en-dedicated-servers-pfsense-bridging?id=kb_article_view&sysparm_article=KB0043897)
 - [Dedicated Servers - Configuring IP aliasing](https://help.ovhcloud.com/csm/en-dedicated-servers-network-ipaliasing?id=kb_article_view&sysparm_article=KB0043756)
-- [Migrate data from one dedicated server to another](https://help.ovhcloud.com/csm/en-dedicated-servers-migrate-data-between-servers?id=kb_article_view&sysparm_article=KB0043700)
 - [Configuring the network on Windows Server with Hyper-V](https://help.ovhcloud.com/csm/en-dedicated-servers-hyperv-network-hg-scale?id=kb_article_view&sysparm_article=KB0043585)
-- [How to protect a Game server with the application firewall](https://help.ovhcloud.com/csm/en-dedicated-servers-game-ddos-firewall?id=kb_article_view&sysparm_article=KB0060680)
 - [Assigning a Virtual MAC to an Additional IP](https://help.ovhcloud.com/csm/en-dedicated-servers-network-virtual-mac?id=kb_article_view&sysparm_article=KB0043799)
 - [Moving an Additional IP](https://help.ovhcloud.com/csm/en-dedicated-servers-ip-fo-move?id=kb_article_view&sysparm_article=KB0043711)
 - [Setting up a Virtual Machine using Additional IPs and Hyper-V over a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-foip-vrack-hyperv?id=kb_article_view&sysparm_article=KB0043621)
 - [Configuring an IPv6 block in a vRack](https://help.ovhcloud.com/csm/en-dedicated-servers-configure-an-ipv6-in-a-vrack?id=kb_article_view&sysparm_article=KB0062838)
 
 #### Hosted Private Cloud
-- [OVHgateway documentation](https://help.ovhcloud.com/csm/en-nutanix-ovh-gateway-documentation?id=kb_article_view&sysparm_article=KB0045003)
 - [Adding a public IP address to a new VM](https://help.ovhcloud.com/csm/en-nutanix-public-ip?id=kb_article_view&sysparm_article=KB0045016)
-- [Configuring Disaster Recovery with Metro](https://help.ovhcloud.com/csm/en-nutanix-metro-availability?id=kb_article_view&sysparm_article=KB0045184)
-- [Nutanix on OVHcloud - High-level documentation](https://help.ovhcloud.com/csm/en-nutanix-high-level-documentation?id=kb_article_view&sysparm_article=KB0044890)
-- [SAP HANA on Bare Metal and SAP Application Servers on VMware on OVHcloud](https://help.ovhcloud.com/csm/en-sap-hana-dedicated-server-sap-as-hpc?id=kb_article_view&sysparm_article=KB0057371)
 - [Adding an IP block](https://help.ovhcloud.com/csm/en-vmware-add-ip-block?id=kb_article_view&sysparm_article=KB0045307)
-- [Associating an email with a vSphere user](https://help.ovhcloud.com/csm/en-vmware-associate-email-vsphere-user?id=kb_article_view&sysparm_article=KB0046418)
 
 #### Load Balancer
-- [Introduction to the OVHcloud Load Balancer](https://help.ovhcloud.com/csm/en-load-balancer-loadbalancer-introduction?id=kb_article_view&sysparm_article=KB0044251)
 - [Routing an Additional IP](https://help.ovhcloud.com/csm/en-load-balancer-routing-foip?id=kb_article_view&sysparm_article=KB0044205)
-- [Working with HTTP routes](https://help.ovhcloud.com/csm/en-load-balancer-routes?id=kb_article_view&sysparm_article=KB0044190)
-- [Details of API functions](https://help.ovhcloud.com/csm/en-load-balancer-api-details?id=kb_article_view&sysparm_article=KB0044234)
-- [Managing the Load Balancer from the customer control panel](https://help.ovhcloud.com/csm/en-load-balancer-using-iplb?id=kb_article_view&sysparm_article=KB0044226)
-- [Load Balancer FAQ](https://help.ovhcloud.com/csm/en-load-balancer-iplb-faq?id=kb_article_view&sysparm_article=KB0044151)
 
 #### Managed Bare Metal
-- [Introduction to the Managed Bare Metal Control Panel](https://help.ovhcloud.com/csm/en-managed-bare-metal-control-panel-ovhcloud?id=kb_article_view&sysparm_article=KB0044493)
 - [Adding an IP block](https://help.ovhcloud.com/csm/en-managed-bare-metal-add-ip-block?id=kb_article_view&sysparm_article=KB0044474)
-- [Associating an email with a vSphere user](https://help.ovhcloud.com/csm/en-managed-bare-metal-associate-email-vsphere-user?id=kb_article_view&sysparm_article=KB0044805)
 
 #### Public Cloud
-- [All you need to know to get started with Public Cloud](https://help.ovhcloud.com/csm/en-public-cloud-compute-essential-information?id=kb_article_view&sysparm_article=KB0050390)
 - [Concepts - Additional IP or Floating IP](https://help.ovhcloud.com/csm/en-public-cloud-network-additional-ip-vs-floating-ip?id=kb_article_view&sysparm_article=KB0050152)
 - [Concepts - Public Cloud Networking](https://help.ovhcloud.com/csm/en-public-cloud-network-concepts?id=kb_article_view&sysparm_article=KB0050134)
-- [How to create a Public Cloud instance and connect to it](https://help.ovhcloud.com/csm/en-public-cloud-compute-getting-started?id=kb_article_view&sysparm_article=KB0051009)
-- [Deleting a Public Cloud project](https://help.ovhcloud.com/csm/en-public-cloud-compute-delete-project?id=kb_article_view&sysparm_article=KB0050718)
 - [Configuring an Additional IP](https://help.ovhcloud.com/csm/en-dedicated-servers-proxmox-network-hg-scale?id=kb_article_view&sysparm_article=KB0043913)
-- [How to use the Public Cloud interface](https://help.ovhcloud.com/csm/en-public-cloud-compute-control-panel?id=kb_article_view&sysparm_article=KB0050405)
 - [Buying an Additional IP](https://help.ovhcloud.com/csm/en-public-cloud-network-buy-additional-ip?id=kb_article_view&sysparm_article=KB0050108)
 - [Migrating an Additional IP](https://help.ovhcloud.com/csm/en-public-cloud-network-migrate-additional-ip?id=kb_article_view&sysparm_article=KB0050129)
 - [Importing an Additional IP](https://help.ovhcloud.com/csm/en-public-cloud-network-import-additional-ip?id=kb_article_view&sysparm_article=KB0050119)
-- [FAQ Public Cloud OVHcloud](https://help.ovhcloud.com/csm/en-public-cloud-compute-faq?id=kb_article_view&sysparm_article=KB0050745)
-- [Securing your OVHcloud infrastructure with Ubika WAAP Gateway](https://help.ovhcloud.com/csm/en-public-cloud-network-ubika-vrack?id=kb_article_view&sysparm_article=KB0065109)
-- [Securing your OVHcloud infrastructure with Stormshield Network Security](https://help.ovhcloud.com/csm/en-public-cloud-network-stormshield-vrack?id=kb_article_view&sysparm_article=KB0065106)
 
 #### Virtual Private Servers
 - [VPS - Configuring IP aliasing](https://help.ovhcloud.com/csm/en-vps-network-ipaliasing?id=kb_article_view&sysparm_article=KB0047585)
@@ -283,21 +262,15 @@ ______________________________________________________________________
 #### Hosted Private Cloud
 
 ***Nutanix on OVHcloud***
-- [Adding a public IP address to a new VM](https://help.ovhcloud.com/csm/en-nutanix-public-ip?id=kb_article_view&sysparm_article=KB0045016)
-- [Configuring Disaster Recovery with Metro](https://help.ovhcloud.com/csm/en-nutanix-metro-availability?id=kb_article_view&sysparm_article=KB0045184)
-- [Replacing the OVHgateway with a dedicated server](https://help.ovhcloud.com/csm/en-nutanix-hardware-gateway-replacement?id=kb_article_view&sysparm_article=KB0045060)
-- [Nutanix on OVHcloud - High-level documentation](https://help.ovhcloud.com/csm/en-nutanix-high-level-documentation?id=kb_article_view&sysparm_article=KB0044890)
 - [Interconnect clusters through the vRack](https://help.ovhcloud.com/csm/en-nutanix-vrack-interconnection?id=kb_article_view&sysparm_article=KB0045159)
 - [Changing the vRack of a Nutanix cluster](https://help.ovhcloud.com/csm/en-nutanix-change-vrack?id=kb_article_view&sysparm_article=KB0045028)
 
 ***VMware on OVHcloud***
-- [Enabling promiscuous mode on a Virtual Machine](https://help.ovhcloud.com/csm/en-vmware-promiscuous-mode?id=kb_article_view&sysparm_article=KB0058210)
 - [How to create a VLAN](https://help.ovhcloud.com/csm/en-vmware-vlan-creation?id=kb_article_view&sysparm_article=KB0045470)
 - [Using Private Cloud within a vRack](https://help.ovhcloud.com/csm/en-vmware-vrack?id=kb_article_view&sysparm_article=KB0046128)
 - [vRack compatibility with Hosted Private Cloud](https://help.ovhcloud.com/csm/en-vmware-vrack-compatibility?id=kb_article_view&sysparm_article=KB0046377)
 
 #### Load Balancer
-- [Details of API functions](https://help.ovhcloud.com/csm/en-load-balancer-api-details?id=kb_article_view&sysparm_article=KB0044234)
 - [Configuring the vRack on the load balancer](https://help.ovhcloud.com/csm/en-load-balancer-configure-vrack?id=kb_article_view&sysparm_article=KB0044259)
 
 #### Managed Bare Metal
@@ -306,97 +279,22 @@ ______________________________________________________________________
 
 #### Public Cloud
 
-***General Information***
-- [How to use Terraform](https://help.ovhcloud.com/csm/en-public-cloud-compute-terraform?id=kb_article_view&sysparm_article=KB0050797)
-- [All you need to know to get started with Public Cloud](https://help.ovhcloud.com/csm/en-public-cloud-compute-essential-information?id=kb_article_view&sysparm_article=KB0050390)
-- [FAQ Public Cloud OVHcloud](https://help.ovhcloud.com/csm/en-public-cloud-databases-faq?id=kb_article_view&sysparm_article=KB0048918)
-
 ***Analytics***
-- [Dashboards - Tutorial - Expose your Dashboards instance in your private network via a reverse proxyNGINX](https://help.ovhcloud.com/csm/en-public-cloud-databases-grafana-reverse-proxy?id=kb_article_view&sysparm_article=KB0056399)
-- [OpenSearch - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-opensearch-capabilities?id=kb_article_view&sysparm_article=KB0049264)
-- [Kafka MirrorMaker - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-mirrormaker-capabilities?id=kb_article_view&sysparm_article=KB0049027)
-- [Kafka - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-kafka-capabilities?id=kb_article_view&sysparm_article=KB0048930)
-- [Data Processing Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-data-processing-capabilities?id=kb_article_view&sysparm_article=KB0048594)
-- [Dashboards - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-grafana-capabilities?id=kb_article_view&sysparm_article=KB0048848)
-- [Kafka Connect - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-kafkaconnect-capabilities?id=kb_article_view&sysparm_article=KB0048959)
-- [Analytics - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-data-analytics-capabilities?id=kb_article_view&sysparm_article=KB0066557)
-- [Analytics - Getting started](https://help.ovhcloud.com/csm/en-data-analytics-getting-started?id=kb_article_view&sysparm_article=KB0066372)
-- [Analytics - Getting started with Terraform](https://help.ovhcloud.com/csm/en-data-analytics-order-terraform?id=kb_article_view&sysparm_article=KB0066401)
-- [Analytics - Getting started with APIs](https://help.ovhcloud.com/csm/en-data-analytics-getting-started-api?id=kb_article_view&sysparm_article=KB0066378)
-
-
-***AI & Machine Learning***
-- [AI Notebooks - Features, Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-ai-notebooks-capabilities?id=kb_article_view&sysparm_article=KB0048243)
-- [AI Deploy - Features, Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-ai-deploy-capabilities?id=kb_article_view&sysparm_article=KB0047968)
-- [AI Training - Features, Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-ai-training-capabilities?id=kb_article_view&sysparm_article=KB0048429)
-- [FAQ - AI Tools](https://help.ovhcloud.com/csm/en-public-cloud-ai-faq?id=kb_article_view&sysparm_article=KB0048194)
-
-***Compute***
-- [How to create a Public Cloud instance and connect to it](https://help.ovhcloud.com/csm/en-public-cloud-compute-getting-started?id=kb_article_view&sysparm_article=KB0051009)
-- [Using instance backups to create or restore an instance](https://help.ovhcloud.com/csm/en-public-cloud-compute-create-restore-virtual-server-from-backup?id=kb_article_view&sysparm_article=KB0050670)
-- [Activating a Windows licence for an instance in private mode](https://help.ovhcloud.com/csm/en-public-cloud-compute-activate-windows-licence-private-mode-instance?id=kb_article_view&sysparm_article=KB0056163)
-- [Managing your Public Cloud Instances in Horizon](https://help.ovhcloud.com/csm/en-public-cloud-compute-managing-instance?id=kb_article_view&sysparm_article=KB0050939)
+- [Dashboards - Tutorial - Expose your Dashboards instance in your private network via a reverse proxy NGINX](https://help.ovhcloud.com/csm/en-public-cloud-databases-grafana-reverse-proxy?id=kb_article_view&sysparm_article=KB0056399)
 
 ***Containers & Orchestration***
 - [Using vRack Private Network](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-using-vrack?id=kb_article_view&sysparm_article=KB0050015)
-- [Creating a cluster](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-create-cluster?id=kb_article_view&sysparm_article=KB0049685)
-- [Expose your app deployed on an OVHcloud Managed Kubernetes Service](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-using-lb?id=kb_article_view&sysparm_article=KB0050019)
-- [Expose your applications using OVHcloud Public Cloud Load Balancer](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-expose-applications-using-load-balancer?id=kb_article_view&sysparm_article=KB0062878)
-- [Getting the source IP behind the LoadBalancer](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-getting-source-ip-behind-loadbalancer?id=kb_article_view&sysparm_article=KB0049765)
-- [Using a custom gateway on an OVHcloud Managed Kubernetes cluster](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-vrack-custom-gateway?id=kb_article_view&sysparm_article=KB0050040)
 - [Working with vRack example - Communicating between different private networks](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-vrack-example-between-private-networks?id=kb_article_view&sysparm_article=KB0055401)
-- [Deploy applications to specific Nodes and Nodes Pools](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-label-nodeaffinity-node-pools?id=kb_article_view&sysparm_article=KB0049881)
 - [Using vRack - Communicating between different private networks](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-using-vrack-between-private-networks?id=kb_article_view&sysparm_article=KB0050023)
-- [Getting Started with Managed Rancher Service](https://help.ovhcloud.com/csm/en-public-cloud-managed-rancher-service-getting-started?id=kb_article_view&sysparm_article=KB0061906)
 - [Working with vRack example - Managed Kubernetes and Public Cloud instances](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-vrack-example-k8s-pci?id=kb_article_view&sysparm_article=KB0050035)
-- [Known limits](https://help.ovhcloud.com/csm/en-public-network-services-known-limits?id=kb_article_view&sysparm_article=KB0060633)
-
-***Databases***
-- [FAQ Public Cloud databases](https://help.ovhcloud.com/csm/en-public-cloud-databases-faq?id=kb_article_view&sysparm_article=KB0048918)
-- [Caching - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-redis-capabilities?id=kb_article_view&sysparm_article=KB0049479)
-- [Cassandra - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-cassandra-capabilities?id=kb_article_view&sysparm_article=KB0048717)
-- [M3db - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-m3db-capabilities?id=kb_article_view&sysparm_article=KB0049000)
-- [M3 Aggregator - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-m3aggregator-capabilities?id=kb_article_view&sysparm_article=KB0048980)
-- [MongoDB - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-mongodb-capabilities?id=kb_article_view&sysparm_article=KB0049040)
-- [MySQL - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-mysql-capabilities?id=kb_article_view&sysparm_article=KB0049167)
-- [PostgreSQL - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-postgresql-capabilities?id=kb_article_view&sysparm_article=KB0049315)
-- [Public Cloud Databases - Capabilities and Limitations](https://help.ovhcloud.com/csm/en-public-cloud-databases-capabilities?id=kb_article_view&sysparm_article=KB0058305)
-- [Caching - Connect with CLI](https://help.ovhcloud.com/csm/en-public-cloud-databases-redis-connect?id=kb_article_view&sysparm_article=KB0049491)
-- [Caching - Connect with PHP](https://help.ovhcloud.com/csm/en-public-cloud-databases-redis-connect-php?id=kb_article_view&sysparm_article=KB0049514)
-- [MongoDB - Connect with CLI](https://help.ovhcloud.com/csm/en-public-cloud-databases-mongodb-connect?id=kb_article_view&sysparm_article=KB0049078)
-- [MongoDB - Connect with PHP](https://help.ovhcloud.com/csm/en-public-cloud-databases-mongodb-connect-php?id=kb_article_view&sysparm_article=KB0049080)
-- [MongoDB - Connect with Python](https://help.ovhcloud.com/csm/en-public-cloud-databases-mongodb-connect-python?id=kb_article_view&sysparm_article=KB0049098)
-- [MongoDB - Tutorial - How to deploy a database with Terraform](https://help.ovhcloud.com/csm/en-public-cloud-databases-mongodb-terraform-deployment?id=kb_article_view&sysparm_article=KB0061656)
-- [MongoDB - Connect with MongoDB Compass](https://help.ovhcloud.com/csm/en-public-cloud-databases-mongodb-connect-compass?id=kb_article_view&sysparm_article=KB0049121)
-- [MongoDB - Cluster Sizing](https://help.ovhcloud.com/csm/en-public-cloud-databases-mongodb-cluster-sizing?id=kb_article_view&sysparm_article=KB0065829)
-- [MySQL - Tutorial - Connect an OVHcloud Managed Kubernetes service to an OVHcloud Managed MySQL service](https://help.ovhcloud.com/csm/en-public-cloud-databases-mysql-connect-kubernetes?id=kb_article_view&sysparm_article=KB0049260)
-- [Public Cloud Databases - Getting started](https://help.ovhcloud.com/csm/en-public-cloud-databases-getting-started?id=kb_article_view&sysparm_article=KB0048745)
-- [Public Cloud Databases Concepts - Security overview](https://help.ovhcloud.com/csm/en-public-cloud-databases-concepts-security-overview?id=kb_article_view&sysparm_article=KB0048877)
-- [Public Cloud Databases - How to configure your Private Network](https://help.ovhcloud.com/csm/en-public-cloud-databases-configure-vrack?id=kb_article_view&sysparm_article=KB0048818)
-- [Public Cloud Databases - Getting started with Terraform](https://help.ovhcloud.com/csm/en-public-cloud-databases-order-terraform?id=kb_article_view&sysparm_article=KB0048834)
-- [Public Cloud Databases - Getting started with APIs](https://help.ovhcloud.com/csm/en-public-cloud-databases-order-api?id=kb_article_view&sysparm_article=KB0048756)
 
 ***Network Services***
 - [Concepts - Public Cloud Networking](https://help.ovhcloud.com/csm/en-public-cloud-network-concepts?id=kb_article_view&sysparm_article=KB0050134)
-- [Public Cloud Network Services - FAQ](https://help.ovhcloud.com/csm/en-public-cloud-network-faq?id=kb_article_view&sysparm_article=KB0050253)
-- [Getting started with Load Balancer on Public Cloud](https://help.ovhcloud.com/csm/en-public-cloud-network-getting-started-load-balancer?id=kb_article_view&sysparm_article=KB0050207)
-- [Deploying a Public Cloud Load Balancer](https://help.ovhcloud.com/csm/en-public-cloud-network-octavia-use-lbaas-openstack?id=kb_article_view&sysparm_article=KB0050297)
 - [Creating a private network with Gateway](https://help.ovhcloud.com/csm/en-public-cloud-network-create-private-network-gateway?id=kb_article_view&sysparm_article=KB0050213)
 - [Configuring vRack for Public Cloud](https://help.ovhcloud.com/csm/en-public-cloud-network-vrack?id=kb_article_view&sysparm_article=KB0050268)
 - [Configuring vRack for Public Cloud using OpenStack CLI](https://help.ovhcloud.com/csm/en-public-cloud-network-vrack-openstack-cli?id=kb_article_view&sysparm_article=KB0066043)
 - [Configuring a public IP block in a vRack on a Public Cloud instance](https://help.ovhcloud.com/csm/en-public-cloud-network-configure-ip-block-vrack-instance?id=kb_article_view&sysparm_article=KB0066787)
 - [Configuring vRack on the Public Cloud using the OVHcloud API](https://help.ovhcloud.com/csm/en-public-cloud-network-vrack-apiv6?id=kb_article_view&sysparm_article=KB0050281)
-- [Changing the MTU size for existing networks using OpenStack CLI/API](https://help.ovhcloud.com/csm/en-public-cloud-network-change-mtu-size?id=kb_article_view&sysparm_article=KB0058222)
-- [Update a subnet properties](https://help.ovhcloud.com/csm/en-public-cloud-network-update-subnet-properties?id=kb_article_view&sysparm_article=KB0061496)
-- [Securing your OVHcloud infrastructure with Stormshield Network Security](https://help.ovhcloud.com/csm/en-public-cloud-network-stormshield-vrack?id=kb_article_view&sysparm_article=KB0065106)
-- [Securing your OVHcloud infrastructure with Ubika WAAP Gateway](https://help.ovhcloud.com/csm/en-public-cloud-network-ubika-vrack?id=kb_article_view&sysparm_article=KB0065109)
-- [Public Cloud Network Services - Known limits](https://help.ovhcloud.com/csm/en-public-network-services-known-limits?id=kb_article_view&sysparm_article=KB0060633)
-
-#### SecNumCloud
-- [VPN-SPN Concept](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-vpn-spn-concept?id=kb_article_view&sysparm_article=KB0065546)
-- [FAQ SecNumCloud Connectivity](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-faq?id=kb_article_view&sysparm_article=KB0065573)
-- [Concepts overview](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-overview-concept?id=kb_article_view&sysparm_article=KB0065516)
-- [SPN Concept](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-spn-concept?id=kb_article_view&sysparm_article=KB0065527)
 
 #### Storage
 
@@ -427,6 +325,13 @@ ______________________________________________________________________
 #### Troubleshooting
 - [OVHcloud Connect Troubleshooting](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-troubleshooting?id=kb_article_view&sysparm_article=KB0045275)
 - [Technical capabilities and limitations](https://help.ovhcloud.com/csm/en-ie-network-ovhcloud-connect-limits?id=kb_article_view&sysparm_article=KB0045257)
+
+
+### SecNumCloud
+- [VPN-SPN Concept](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-vpn-spn-concept?id=kb_article_view&sysparm_article=KB0065546)
+- [FAQ SecNumCloud Connectivity](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-faq?id=kb_article_view&sysparm_article=KB0065573)
+- [Concepts overview](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-overview-concept?id=kb_article_view&sysparm_article=KB0065516)
+- [SPN Concept](https://help.ovhcloud.com/csm/en-networking-secnumcloud-connectivity-spn-concept?id=kb_article_view&sysparm_article=KB0065527)
 
 
 ### Bring Your Own IP (BYOIP)
