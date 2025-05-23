@@ -192,7 +192,6 @@ ______________________________________________________________________
 
 #### Public Cloud
 - [Concepts - Additional IP or Floating IP](https://help.ovhcloud.com/csm/en-public-cloud-network-additional-ip-vs-floating-ip?id=kb_article_view&sysparm_article=KB0050152)
-- [Concepts - Public Cloud Networking](https://help.ovhcloud.com/csm/en-public-cloud-network-concepts?id=kb_article_view&sysparm_article=KB0050134)
 - [Configuring an Additional IP](https://help.ovhcloud.com/csm/en-dedicated-servers-proxmox-network-hg-scale?id=kb_article_view&sysparm_article=KB0043913)
 - [Buying an Additional IP](https://help.ovhcloud.com/csm/en-public-cloud-network-buy-additional-ip?id=kb_article_view&sysparm_article=KB0050108)
 - [Migrating an Additional IP](https://help.ovhcloud.com/csm/en-public-cloud-network-migrate-additional-ip?id=kb_article_view&sysparm_article=KB0050129)
@@ -213,8 +212,6 @@ ______________________________________________________________________
 
 #### Getting Started
 - [Managing your Load Balancer service via the Control Panel](https://help.ovhcloud.com/csm/en-load-balancer-using-iplb?id=kb_article_view&sysparm_article=KB0044226)
-- [Load Balancer API Quick Reference](https://help.ovhcloud.com/csm/en-load-balancer-iplb-api-reference?id=kb_article_view&sysparm_article=KB0044244)
-- [Details of API functions](https://help.ovhcloud.com/csm/en-load-balancer-api-details?id=kb_article_view&sysparm_article=KB0044234)
 - [Order a free SSL certificate](https://help.ovhcloud.com/csm/en-load-balancer-order-freecertificate?id=kb_article_view&sysparm_article=KB0044210)
 
 #### Operation
@@ -227,6 +224,8 @@ ______________________________________________________________________
 - [Routing an Additional IP](https://help.ovhcloud.com/csm/en-load-balancer-routing-foip?id=kb_article_view&sysparm_article=KB0044205)
 - [Tracking connections](https://help.ovhcloud.com/csm/en-load-balancer-iplb-stickiness?id=kb_article_view&sysparm_article=KB0044199)
 - [ProxyProtool get Source IP](https://help.ovhcloud.com/csm/en-load-balancer-proxyprotocol?id=kb_article_view&sysparm_article=KB0044177)
+- [Load Balancer API Quick Reference](https://help.ovhcloud.com/csm/en-load-balancer-iplb-api-reference?id=kb_article_view&sysparm_article=KB0044244)
+- [Details of API functions](https://help.ovhcloud.com/csm/en-load-balancer-api-details?id=kb_article_view&sysparm_article=KB0044234)
 
 ##### Deployments
 - [Configuring a HTTP/HTTPS OVH Load Balancer Service](https://help.ovhcloud.com/csm/en-load-balancer-configure-iplb?id=kb_article_view&sysparm_article=KB0044163)
@@ -241,9 +240,6 @@ ______________________________________________________________________
 - [Retrieve server health status](https://help.ovhcloud.com/csm/en-load-balancer-retrieve-servers-state?id=kb_article_view&sysparm_article=KB0044216)
 
 ### vRack Private Network
-
-#### BGP Service
-- [BGP Service configuration](https://help.ovhcloud.com/csm/en-network-bgp-service-configuration?id=kb_article_view&sysparm_article=KB0066886)
 
 #### Dedicated Servers
 - [Configuring the network on Proxmox VE on the High Grade, Scale & Advance ranges](https://help.ovhcloud.com/csm/en-dedicated-servers-proxmox-network-hg-scale?id=kb_article_view&sysparm_article=KB0043913)
@@ -279,9 +275,6 @@ ______________________________________________________________________
 
 #### Public Cloud
 
-***Analytics***
-- [Dashboards - Tutorial - Expose your Dashboards instance in your private network via a reverse proxy NGINX](https://help.ovhcloud.com/csm/en-public-cloud-databases-grafana-reverse-proxy?id=kb_article_view&sysparm_article=KB0056399)
-
 ***Containers & Orchestration***
 - [Using vRack Private Network](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-using-vrack?id=kb_article_view&sysparm_article=KB0050015)
 - [Working with vRack example - Communicating between different private networks](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-vrack-example-between-private-networks?id=kb_article_view&sysparm_article=KB0055401)
@@ -289,8 +282,6 @@ ______________________________________________________________________
 - [Working with vRack example - Managed Kubernetes and Public Cloud instances](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-vrack-example-k8s-pci?id=kb_article_view&sysparm_article=KB0050035)
 
 ***Network Services***
-- [Concepts - Public Cloud Networking](https://help.ovhcloud.com/csm/en-public-cloud-network-concepts?id=kb_article_view&sysparm_article=KB0050134)
-- [Creating a private network with Gateway](https://help.ovhcloud.com/csm/en-public-cloud-network-create-private-network-gateway?id=kb_article_view&sysparm_article=KB0050213)
 - [Configuring vRack for Public Cloud](https://help.ovhcloud.com/csm/en-public-cloud-network-vrack?id=kb_article_view&sysparm_article=KB0050268)
 - [Configuring vRack for Public Cloud using OpenStack CLI](https://help.ovhcloud.com/csm/en-public-cloud-network-vrack-openstack-cli?id=kb_article_view&sysparm_article=KB0066043)
 - [Configuring a public IP block in a vRack on a Public Cloud instance](https://help.ovhcloud.com/csm/en-public-cloud-network-configure-ip-block-vrack-instance?id=kb_article_view&sysparm_article=KB0066787)
