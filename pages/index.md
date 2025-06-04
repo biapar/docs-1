@@ -344,6 +344,8 @@
             + [Migrating a PCC to Hosted Private Cloud](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/service-migration)
             + [Migrating an infrastructure to a new vDC](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/service-migration-vdc)
             + [Responsibility sharing for the VMware on OVHcloud service](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/responsibility-sharing)
+            + [User roles and permissions in Hosted Private Cloud](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/permissions-roles)
+            + [User roles and permissions in Hosted Private Cloud](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_permissions)
             + [Datamotive - Introduction](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/datamotive_intro)
             + [How to obtain the carbon footprint of your OVHcloud services](account_and_service_management/managing_billing_payments_and_services/carbon_footprint)
         + [VMware Cloud Director](hosted-private-cloud-hosted-private-cloud-powered-by-vmware-vcd)
