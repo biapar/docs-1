@@ -8,7 +8,7 @@ flag: hidden
 ## Introducción
 En este tutorial, aprenderás a agregar una clave SSH en el Panel de Control de OVHcloud. La autenticación por clave SSH*¹ es un método seguro para acceder a tus servicios en la nube sin necesidad de recordar contraseñas. Sigue estos pasos para agregar una clave SSH y mejorar la seguridad de tus servicios.
 
-<iframe src="https://embed.api.video/vod/vi7Nrf4kB71MAILTYzsMvhkh" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen="true"></iframe> 
+<iframe src="https://embed.api.video/vod/vi7Nrf4kB71MAILTYzsMvhkh" width="800" height="450" frameborder="0" scrolling="no" allowfullscreen="true"></iframe> 
 
 ## Paso 1: Acceder al Panel de Control de OVHcloud
 Para empezar, debes acceder al Panel de Control de OVHcloud. Puedes hacerlo visitando la siguiente URL: [https://www.ovh.com/manager/#/billing/autorenew/](https://www.ovh.com/manager/#/billing/autorenew/). Una vez que hayas iniciado sesión, asegúrate de que estés en la página "Mis ofertas y servicios" dentro del Panel de Control de OVHcloud. Esta página es el punto de partida para gestionar tus servicios en la nube.
