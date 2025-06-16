@@ -18,9 +18,7 @@
 - [How to obtain the carbon footprint of your OVHcloud services](https://help.ovhcloud.com/csm/en-carbon-footprint-calculator?id=kb_article_view&sysparm_article=KB0066739)
 
 #### Operation
-##### Administration
-
-***System***
+##### Administration - System
 - [How to configure user accounts and root access on a server](https://help.ovhcloud.com/csm/en-dedicated-servers-root-password?id=kb_article_view&sysparm_article=KB0043633)
 - [Changing a Windows Server product key](https://help.ovhcloud.com/csm/en-dedicated-servers-windows-key?id=kb_article_view&sysparm_article=KB0044093)
 - [Changing the admin password on a Windows dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-windows-admin-password-change?id=kb_article_view&sysparm_article=KB0043295)
@@ -28,7 +26,7 @@
 - [Hardware upgrade on a High Grade or Scale dedicated server](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-hardware-upgrade-hg-scale?id=kb_article_view&sysparm_article=KB0060745)
 
 
-***Storage***
+##### Administration - Storage
 - [How to configure and rebuild software RAID](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-raid-soft?id=kb_article_view&sysparm_article=KB0043933)
 - [Managing hardware RAID](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-raid-hard?id=kb_article_view&sysparm_article=KB0043928)
 - [Hot swap - Hardware RAID](https://help.ovhcloud.com/csm/en-dedicated-servers-hotswap-raid-hard?id=kb_article_view&sysparm_article=KB0043531)
@@ -38,11 +36,14 @@
 - [OVHcloud API and Storage](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-api-partitioning?id=kb_article_view&sysparm_article=KB0043895)
 - [Configuring the storage on a HGR-STOR-2 server](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-hgrstor2-system-configuration?id=kb_article_view&sysparm_article=KB0043518)
 - [Dedicated Servers - ESXi Partitioning](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-esxi-partitioning?id=kb_article_view&sysparm_article=KB0059568)
+
+##### Administration - Storage (firmware update)
 - [Advance Dedicated Servers - Upgrading your Samsung NVMe PM9A1 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-samsung-nvme-firmware-upgrade?id=kb_article_view&sysparm_article=KB0060082)
 - [High Grade Dedicated Servers - Upgrading your SSD SAS Western Digital SS300 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-wd-sas-firmware-upgrade?id=kb_article_view&sysparm_article=KB0062305)
 - [High Grade Dedicated Servers - Upgrading your SSD SAS Western Digital SS530 firmware](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-wdc-sas-ss530-firmware-upgrade?id=kb_article_view&sysparm_article=KB0064265)
+- [Dedicated Servers - Upgrading your SSD Solidigm D7-P5520 firmware](https://help.ovhcloud.com/csm/en-dedicated-servers-solidigm-d7-p5520-fw-update?id=kb_article_view&sysparm_article=KB0070592)
 
-***Network***
+##### Administration - Network
 - [IHow to get started with SSH connections](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-ssh-introduction?id=kb_article_view&sysparm_article=KB0044020)
 - [How to create and use authentication keys for SSH connections to OVHcloud servers](https://help.ovhcloud.com/csm/en-ie-dedicated-servers-creating-ssh-keys?id=kb_article_view&sysparm_article=KB0043380)
 - [Configuring OVHcloud Secondary DNS on a dedicated server](https://help.ovhcloud.com/csm/en-dedicated-servers-secondary-dns?id=kb_article_view&sysparm_article=KB0043239)
@@ -257,11 +258,11 @@ ______________________________________________________________________
 
 #### Hosted Private Cloud
 
-***Nutanix on OVHcloud***
+##### Nutanix on OVHcloud
 - [Interconnect clusters through the vRack](https://help.ovhcloud.com/csm/en-nutanix-vrack-interconnection?id=kb_article_view&sysparm_article=KB0045159)
 - [Changing the vRack of a Nutanix cluster](https://help.ovhcloud.com/csm/en-nutanix-change-vrack?id=kb_article_view&sysparm_article=KB0045028)
 
-***VMware on OVHcloud***
+##### VMware on OVHcloud
 - [How to create a VLAN](https://help.ovhcloud.com/csm/en-vmware-vlan-creation?id=kb_article_view&sysparm_article=KB0045470)
 - [Using Private Cloud within a vRack](https://help.ovhcloud.com/csm/en-vmware-vrack?id=kb_article_view&sysparm_article=KB0046128)
 - [vRack compatibility with Hosted Private Cloud](https://help.ovhcloud.com/csm/en-vmware-vrack-compatibility?id=kb_article_view&sysparm_article=KB0046377)
@@ -275,13 +276,13 @@ ______________________________________________________________________
 
 #### Public Cloud
 
-***Containers & Orchestration***
+##### Containers & Orchestration
 - [Using vRack Private Network](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-using-vrack?id=kb_article_view&sysparm_article=KB0050015)
 - [Working with vRack example - Communicating between different private networks](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-vrack-example-between-private-networks?id=kb_article_view&sysparm_article=KB0055401)
 - [Using vRack - Communicating between different private networks](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-using-vrack-between-private-networks?id=kb_article_view&sysparm_article=KB0050023)
 - [Working with vRack example - Managed Kubernetes and Public Cloud instances](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-vrack-example-k8s-pci?id=kb_article_view&sysparm_article=KB0050035)
 
-***Network Services***
+##### Network Services
 - [Configuring vRack for Public Cloud](https://help.ovhcloud.com/csm/en-public-cloud-network-vrack?id=kb_article_view&sysparm_article=KB0050268)
 - [Configuring vRack for Public Cloud using OpenStack CLI](https://help.ovhcloud.com/csm/en-public-cloud-network-vrack-openstack-cli?id=kb_article_view&sysparm_article=KB0066043)
 - [Configuring a public IP block in a vRack on a Public Cloud instance](https://help.ovhcloud.com/csm/en-public-cloud-network-configure-ip-block-vrack-instance?id=kb_article_view&sysparm_article=KB0066787)
@@ -289,10 +290,10 @@ ______________________________________________________________________
 
 #### Storage
 
-***File Storage***
+##### File Storage
 - [Enterprise File Storage - Private network configuration](https://help.ovhcloud.com/csm/en-public-cloud-storage-netapp-network-configuration?id=kb_article_view&sysparm_article=KB0062715)
 
-***Object Storage***
+##### Object Storage
 - [Object Storage - How to connect Object Storage buckets with other resources in a vRack](https://help.ovhcloud.com/csm/en-public-cloud-storage-s3-with-private-network?id=kb_article_view&sysparm_article=KB0067161)
 
 #### vRack Services
