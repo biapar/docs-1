@@ -42,17 +42,6 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Acknowledge alarm</td>
       <td>✅</td>
       <td>❌</td>
@@ -118,17 +107,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -149,17 +127,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Add disk</td>
       <td>✅</td>
@@ -314,17 +281,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -345,17 +301,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Create</td>
       <td>❌</td>
@@ -411,17 +356,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -442,17 +376,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Modify</td>
       <td>❌</td>
@@ -519,17 +442,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -551,30 +463,8 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Network protocol profile configuration</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -603,17 +493,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Allocate space</td>
       <td>✅</td>
@@ -702,17 +581,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -734,30 +602,8 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Register extension</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -786,17 +632,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Create folder</td>
       <td>✅</td>
@@ -841,17 +676,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -872,17 +696,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Act as vCenter Server</td>
       <td>✅</td>
@@ -1037,17 +850,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -1068,17 +870,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>CIM</td>
       <td>❌</td>
@@ -1398,17 +1189,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -1429,17 +1209,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Assign or Unassign vSphere Tag</td>
       <td>✅</td>
@@ -1528,17 +1297,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -1560,34 +1318,12 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Assign network</td>
       <td>❌</td>
       <td>❌</td>
       <td>✅</td>
       <td>❌</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -1613,30 +1349,8 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Modify intervals</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -1665,17 +1379,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Apply recommendation</td>
       <td>✅</td>
@@ -1797,17 +1500,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -1828,17 +1520,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Create tasks</td>
       <td>✅</td>
@@ -1883,17 +1564,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -1915,30 +1585,8 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Configure a datastore cluster</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -1968,17 +1616,6 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Message</td>
       <td>❌</td>
       <td>❌</td>
@@ -1991,17 +1628,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
     <tr>
       <td>Validate session</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -2032,17 +1658,6 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Profile-driven storage update</td>
       <td>✅</td>
       <td>❌</td>
@@ -2056,17 +1671,6 @@ Below is the complete list of permissions available for each category and role a
     <tr>
       <td>Profile-driven storage view</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -2096,17 +1700,6 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Configure service</td>
       <td>✅</td>
       <td>❌</td>
@@ -2120,17 +1713,6 @@ Below is the complete list of permissions available for each category and role a
     <tr>
       <td>View</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -2160,17 +1742,6 @@ Below is the complete list of permissions available for each category and role a
   </thead>
   <tbody>
     <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
       <td>Create task</td>
       <td>✅</td>
       <td>❌</td>
@@ -2184,17 +1755,6 @@ Below is the complete list of permissions available for each category and role a
     <tr>
       <td>Update task</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -2223,17 +1783,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Add virtual machine</td>
       <td>✅</td>
@@ -2432,17 +1981,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -2463,17 +2001,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Configure</td>
       <td>❌</td>
@@ -2606,17 +2133,6 @@ Below is the complete list of permissions available for each category and role a
       <td>❌</td>
       <td>❌</td>
     </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
   </tbody>
 </table>
 
@@ -2637,17 +2153,6 @@ Below is the complete list of permissions available for each category and role a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
     <tr>
       <td>Change Configuration</td>
       <td>❌</td>
@@ -3569,17 +3074,6 @@ Below is the complete list of permissions available for each category and role a
     <tr>
       <td>Revert to snapshot</td>
       <td>✅</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>❌</td>
-      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
