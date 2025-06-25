@@ -134,6 +134,7 @@ Changes will remain in memory only, until you decide to write them.
 Be careful before using the write command
 ```
 ```console
+# Attention: you LOST the data, deleting the partion
 Command (m for help): d
 
 Selected partition 1
